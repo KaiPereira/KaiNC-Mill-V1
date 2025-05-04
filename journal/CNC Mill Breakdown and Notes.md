@@ -24,7 +24,6 @@ Representation of the mill style I want to go with.
 Parts overview:
 - ~~Stepper motors (Nema 23 steppers) - facebook marketplace~~
 - 4040, 2 rail aluminum extrusions - misumi
-- 
 
 
 Resources:
