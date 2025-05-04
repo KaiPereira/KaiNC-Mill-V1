@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "bc1110c3c92b6942",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ccb33f08fa2d4d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af0aee3e6657a634",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CNC Machine.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CNC Machine"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b723df94103b6fc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "0164cde7f3ce2f3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9886a3491023c061",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "198bbf0f8ba58a3d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "88f5e5ca29ae0e12",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1e5d0012b10611ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "83394e40a300eba5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "042253280b85f544",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CNC Machine.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CNC Machine"
+            }
+          },
+          {
+            "id": "93514d04019ce976",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CNC Machine.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CNC Machine"
+            }
+          },
+          {
+            "id": "e2039761494bb857",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3b6066e489e19d96",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CNC Machine.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CNC Machine"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "af0aee3e6657a634",
+  "lastOpenFiles": [
+    "Pasted image 20250503190202.png",
+    "Pasted image 20250503190111.png",
+    "Pasted image 20250503190010.png",
+    "Pasted image 20250503185723.png",
+    "Pasted image 20250503120536.png",
+    "CNC Machine.md",
+    "Pasted image 20250503115326.png",
+    "Pasted image 20250503114651.png",
+    "Untitled.md"
+  ]
+}
