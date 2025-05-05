@@ -23,7 +23,7 @@ This taught me about the basics of a CNC machine:
 
 I had a good idea of what a CNC machine was actually made with by the end of first day.
 
-This day probably actually took like 4 days but I'm just simplifying the days down to each like section. **Time total: 8 hours**.
+This day probably actually took like 4 days but I'm just simplifying the days down to each like section. **Total time: 8 hours**.
 
 ## Day 2 - Defining my CNC machine
 
@@ -45,7 +45,7 @@ Using all this information I created my first drawing. Drawings REALLY helped de
 
 You can see that the frame is purely made out of aluminum extrusions and bolts which make the frame pretty cheap and easy to assembly because I can just order the extrusions to size and with the specs I want.
 
-**Time Total: 12 hours**
+**Total time: 12 hours**
 
 ## Day 3 - Collecting my thoughts
 
@@ -69,7 +69,7 @@ For the end of this day, I finally got something into my CAD workspace and it's 
 
 Just 2 simple aluminum extrusions but it's really exciting to see something actually on paper.
 
-**Time total: 16 hours**
+**Total time: 16 hours**
 
 ## Day 4 - working on the frame and revisions
 
@@ -96,3 +96,42 @@ I want my CAD file to feel like literal instructions for building this so I migh
 
 **Time total: 18 hours**
 
+## Day 5 - Disaster and Progress
+
+This day made me some reality checks and I also made a lot of progress. The main focus initially of this day was to get fastening of the joints down into CAD.
+
+I had absolutely no clue how to fasten aluminum extrusions and the internet actually wasn't that helpful. So I did some deep research and decided that a bolting with T-Nuts would be the easiest option.
+
+This process is a bit complicated to understand at first, but it's fairly simple:
+- Tap both ends of the 400mm extrusions
+- Screw in bolts and T-Nuts into the tapped ends
+- Cutting holes that match up with the T-Nuts into the 500mm mounting extrusion
+- Slide the T-Nuts into the 500mm mounting extrusion
+- Tighten the bolt to create a very solid mount
+
+So I added the holes on the mounting extrusion and this is where some things started to go downhill.
+
+![[Pasted image 20250504203611.png]]
+
+I've realized that I want to make the machine mill 40cm x 40cm but my extrusions are only 4cm. I thought 4cm was a decent amount but I took a quick look at a measuring tape and realized it was pretty tiny.
+
+I also realized I completely messed up my frame calculations, just how big the mounting extrusion is going to be and how much extra space I'm going to have on the sides. So this means tomorrow I'm going to have to spend a lot of time doing re-calculations and more research.
+
+![[Pasted image 20250504204156.png]]
+
+I really want to be able to mill aluminum, so that means the design needs to be RIGID, but I also want to be able to mill 40cm x 40cm, so I feel like I either have to make the working area of the CNC mill to be smaller, or make the extrusions bigger.
+
+I still want this to be very budget friendly though, and making the extrusions bigger, increases the cost quite a bit (nearly double), so I'm going to have to think of a smart way of solving this.
+
+I could use 4080 extrusions, or maybe use like mounting brackets to make it stronger, but I'm not too sure.
+
+Now time to make some more revisions. First off, I redid the calculations (this is probably my favorite drawing so far):
+![[Pasted image 20250504205838.png]]
+I now have an accurate frame with 5mm of error on each side, and keeping maximum rigidity in the center of it (which is the second revision of the drawing)
+
+Now time to put update my CAD design! I keep on messing up my calculations because my drawings are from the edges of the extrusions instead of the middle of the holes, but after a couple tries I got it down. much more rigid now!
+![[Pasted image 20250504211226.png]]
+
+Now I still might actually put them closer together, but I'll take a look at it once the rails are actually on it. For now, I want to research if I need larger extrusions and I want to get the T-Nuts and bolts into the design.
+
+**Total time: 22 hours**

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Build Instructions.md",
+                "file": "CNC Machine Journal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Build Instructions"
+              "title": "CNC Machine Journal"
             }
           }
         ],
@@ -199,8 +199,12 @@
   },
   "active": "07c7107a9ac2f2e8",
   "lastOpenFiles": [
-    "CNC Mill Breakdown and Notes.md",
+    "Pasted image 20250504211226.png",
+    "Pasted image 20250504205838.png",
+    "Pasted image 20250504204156.png",
+    "Pasted image 20250504203611.png",
     "Build Instructions.md",
+    "CNC Mill Breakdown and Notes.md",
     "CNC Machine Journal.md",
     "Pasted image 20250503190202.png",
     "Pasted image 20250503190111.png",
