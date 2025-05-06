@@ -23,7 +23,7 @@ This taught me about the basics of a CNC machine:
 
 I had a good idea of what a CNC machine was actually made with by the end of first day.
 
-This day probably actually took like 4 days but I'm just simplifying the days down to each like section. **Total time: 8 hours**.
+This day probably actually took like 4 days but I'm just simplifying the days down to each like section. I know it doesn't look like much was done, but it's very complicating just jumping into it. **Total time: 8 hours**.
 
 ## Day 2 - Defining my CNC machine
 
@@ -135,3 +135,54 @@ Now time to put update my CAD design! I keep on messing up my calculations becau
 Now I still might actually put them closer together, but I'll take a look at it once the rails are actually on it. For now, I want to research if I need larger extrusions and I want to get the T-Nuts and bolts into the design.
 
 **Total time: 22 hours**
+
+## Day 6 - Rails and T-Nuts
+
+I know I wanted to use T-Nuts/Bolts to bolt together the extrusions but I wasn't quite sure exactly what T-Nut to use. I'm not an engineer, so I assumed all T-Nuts were the same... But I never realized the insane variety I could get.
+
+T-Nuts come in tons of different forms:
+- Drop in spring balls - Drops in after assembly and have a ball bearing
+- Double or triple T-Nut plates - multiple threaded holes
+- Threaded Rod T-Nuts - have an actual like long thread that can tighten internally
+- T-Nuts with stud - which come with a threaded stud
+- Slide in/Preload T-nuts - insert before closing off
+
+Here, you can be apart of the pain it is to find out what nut I need to use for this project:
+
+![[Pasted image 20250506073552.png]]
+
+I'm not an engineer so I had NO CLUE what to use, but T-Slot is the move!
+
+I decided on using the slide in T-Nuts because I can attach them to the bolts and then just thread them through the extrusion and they're the cheapest ones while being extremely rigid.
+
+But I actually might re-consider this decision because of how many T-Nuts I actually need. Tom Stanton has been a big help to visually see how to make a CNC mill, and I noticed he just uses threads to hold the extrusions together. This approach might actually be cheapest because you can just buy a threaded bolt and it would probably be cheaper. I definitely need to research this even more!
+
+Because I started to go insane, looking at the pro's and con's of T-Nuts, bolts, etc. I decided to start looking at linear rails. Boy did I underestimate the pain this would be. Again, this CNC mill needs to be around the $300 range, but I did not think that a long piece of metal, with a rail attached would cost me $50!!!! for ONE. I needed 2 for each axis, so 6 of these.
+
+This was a huge problem and I need to get my prices down. But thank god aliexpress is alive, I could easily get 500mm long rails for $25. But I still didn't know what type of linear rails i needed.
+
+I thought there was only 1 type of linear rail, but nope, there's 3 major ones for CNC:
+- Mainstream linear rails - just a block of metal with a rail with bearings
+- Rods - a circular rod with bearings or bushings to move it along the rod
+- V-Slot wheels and rails - literal wheels to travel the extrusion allowing motion
+
+I knew that V-Slot wheels were probably out of the equation because they weren't rigid enough and it would be weird to fit them onto my extrusion that had 2 rails on each side.
+
+So the decision was between rods and linear rails. While I feel like rods could work, I have seen next to no CNC Mill use them, and for a good reason:
+- Looser fit
+- Wear down pretty fast
+- a bit bulkier/larger
+- Noisy and flex quite a bit
+- Low point of contact
+
+So I'm probably going to use linear rails because on aliexpress, I've seen them for decent prices and I think I can get it down to maybe like $100 for all the linear rails. Costs are adding up FAST! With the stepper motors I've bought, that means I'm already at $150, but I would nearly have the frame completed, I would just need ballscrews really which I estimate are going to be like $75 or so.
+
+But I still don't know what type of linear rails to use, the market is so flooded with chinese products, it's impossible to know what to use. A bit of a ChatGPT session later, I found out that the cheapest and most reliable rails are going to probably be MGN12's or higher (the 12 refers to the width of the rail). The thing is, the MGN's have lots of copycats on aliexpress that use the same specs, so I can get decently reliable rails for a good price on aliexpress!
+
+The thing about ordering rails on aliexpress, is they come with anti-rust grease most of the time, so something I learned is soaking the rails in isopropyl-alchohol to remove the grease and then lubricating them so they work smoothly. This will ensure they have a long lifespan and are much more reliable, because lots of people think that the grease is actually lubricant.
+
+Now that I kind of know what parts I want, I really want to research like the exact rail I need, because there's plenty of different lengths, widths, etc. Once I have this down, I really need to put the rails into my CAD drawing (I can probably find a good MGN rail model on grabcad) and add the T-Nuts in too.
+
+I really want to make sure my CAD drawing is extremely precise, so I make little to no mistakes when building the actual thing irl and costing myself more money.
+
+**Total time: 25 hours**

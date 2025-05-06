@@ -24,3 +24,8 @@ Instructions:
 - Insert the T-Nuts onto the bolt
 - Insert the bolt into the tapped end of the 400mm extrusion
 - Tighten the bolts through the holes drilled into the mounting 500mm extrusion
+
+
+## Rails and ball-screws
+
+REMEMBER TO DIP THE LINEAR RAILS IN ISOPROPYL ALCOHOL TO REMOVE THE ANTI-RUST GREASE AND THEN RE-LUBRICATE THEM.
