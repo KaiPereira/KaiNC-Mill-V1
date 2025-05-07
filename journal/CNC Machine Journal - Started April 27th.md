@@ -186,3 +186,41 @@ Now that I kind of know what parts I want, I really want to research like the ex
 I really want to make sure my CAD drawing is extremely precise, so I make little to no mistakes when building the actual thing irl and costing myself more money.
 
 **Total time: 25 hours**
+
+## Day 7 - Rethinking rails and rigidity
+
+After putting down my thoughts on day 6, I realized that maybe my frame wouldn't be rigid enough. This was kind of a fear of mine that I didn't want to face, because this would mean rising costs and rethinking some stuff. I really want to mill aluminum on a decent scale so I need a LOT of rigidity and I'm not sure if 4040's can provide that. I'll put this on the back burner a bit and do some rails and ball-screw stuff.
+
+While looking into where to buy my MGN15 rails, I came across lots of resource that said that MGN rails will NOT CUT IT. I did a bit more deep diving, and turns out they're really only good for light CNC like plastic and 3D printing, so I definitely needed to change this out.
+
+Taking a bit of inspiration from the [PrintNC](https://wiki.printnc.info/en/home) I think I'm going to use HGR15's instead. These provide WAY more rigidity and will definitely be strong enough and are even rated for steel. Not only that, but these will actually strengthen the frame even further which relieves some of my thoughts about rigidity. It's also pretty much the same price as MGN15's for some reason...
+
+There are 4 different types of HG rails though, if you want to read about them, check out [circuitist](https://www.circuitist.com/hiwin-linear-rails-guide/):
+- **HGR** is the rail only
+- **HGW** are carriages with **flanges** and wider hole spacing.
+- **HGH** are carriages **without flanges**, taller than HGW.
+- **HGL** are carriages **without flanges**, as tall as HGW.
+- 
+![[Pasted image 20250506211017.png]]
+
+*HGW vs HGH carriage*
+
+There's tons of weird naming conventions, but I found that [Limo Bearings](https://limobearing.com/hgh20ca15ca25ca-precision-linear-bearing-rails-hiwin-equivalent?gad_source=1&gad_campaignid=21634925508&gbraid=0AAAAAoZbfAFPkPFvn4iX_BOQjB04z2VkI&gclid=Cj0KCQjw5ubABhDIARIsAHMighat6ItmEETTEZeWj1i1iQFe-XVcYvrtLyigNwKarl9bzWvAvkLdMdoaAuNmEALw_wcB) has some pretty good prices for them (but this is definitely still subject to change)!
+
+Tomorrow, I'm pretty sure I can choose which rails I want to use and finally put them into my CAD design.
+
+Now let's go back to talking about rigidity. I was browsing around in the [PrintNC discord](https://discord.com/invite/printnc-diy-cnc-hobby-machining-making-648972213734604807) and I kept on seeing that people suggested using steel to mill aluminum, because it's nearly 4x AS RIGID in many cases!! While I definitely still want to use extrusion for ease of assembly, I'm definitely going to consider maybe some steel parts like panels on the side.
+
+I also really want to consider using a mix of larger and smaller extrusions in weaker and stronger spots. This is a really cool DIY CNC mill design I found in the PrintNC discord (I forgot who it was from though :( ).
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeUsATReBbQGrH6pCXiCaGNrX0VAgS8kHitkhg_dPPRu91cT3YxJlC8oo8_LxWufcySvzPs2zTax6susLEMOqd6_l7V2FfYFMNtrVNu5DafU6yQGuZGBWSUwwCQ704yVBqqirh_HA?key=fT4XSf48xS1RgFciDTHXKleY)
+
+The things I really like about this are they use larger extrusion on the sides and smaller extrusions for the rails which is very cool. They also use a steel frame around the whole thing, which I could imagine is EXTREMELY strong and combined with the steel side-panels, it could probably mill steel. But honestly, I could always consider building a CNC mill with only extrusion and then consider upgrading it with steel parts once it's finished.
+
+Based off my current specs, it's definitely convincing to switch to a 30x30cm baseplate but I'm determined to make 40x40cm work. I really want to be able to mill things like keyboards at a max and 40x40 just seems perfect. I'm honestly probably going to use this idea of 2 larger extrusions on the side and 2 smaller ones inside with rails on them. 
+
+Tomorrow I feel like I'm going to get the rails in my CAD design, look into steel parts (and how easy they are to work with) and maybe re-do/think about the frame.
+
+There's so much to think about when it comes to a CNC mill, and I really have to consider a multitude of things and just keep on re-iterating to make something incredible and affordable.
+
+**Total time: 27 hours**
