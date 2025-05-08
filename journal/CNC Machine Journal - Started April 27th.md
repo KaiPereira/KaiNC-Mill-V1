@@ -200,7 +200,7 @@ There are 4 different types of HG rails though, if you want to read about them, 
 - **HGW** are carriages with **flanges** and wider hole spacing.
 - **HGH** are carriages **without flanges**, taller than HGW.
 - **HGL** are carriages **without flanges**, as tall as HGW.
-- 
+
 ![[Pasted image 20250506211017.png]]
 
 *HGW vs HGH carriage*
@@ -211,7 +211,7 @@ Tomorrow, I'm pretty sure I can choose which rails I want to use and finally put
 
 Now let's go back to talking about rigidity. I was browsing around in the [PrintNC discord](https://discord.com/invite/printnc-diy-cnc-hobby-machining-making-648972213734604807) and I kept on seeing that people suggested using steel to mill aluminum, because it's nearly 4x AS RIGID in many cases!! While I definitely still want to use extrusion for ease of assembly, I'm definitely going to consider maybe some steel parts like panels on the side.
 
-I also really want to consider using a mix of larger and smaller extrusions in weaker and stronger spots. This is a really cool DIY CNC mill design I found in the PrintNC discord (I forgot who it was from though :( ).
+I also really want to consider using a mix of larger and smaller extrusions in weaker and stronger spots. This is a really cool DIY CNC mill design I found in the PrintNC discord (I forgot who it was from though).
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeUsATReBbQGrH6pCXiCaGNrX0VAgS8kHitkhg_dPPRu91cT3YxJlC8oo8_LxWufcySvzPs2zTax6susLEMOqd6_l7V2FfYFMNtrVNu5DafU6yQGuZGBWSUwwCQ704yVBqqirh_HA?key=fT4XSf48xS1RgFciDTHXKleY)
 
@@ -224,3 +224,55 @@ Tomorrow I feel like I'm going to get the rails in my CAD design, look into stee
 There's so much to think about when it comes to a CNC mill, and I really have to consider a multitude of things and just keep on re-iterating to make something incredible and affordable.
 
 **Total time: 27 hours**
+
+## Day 8 - CAD, Math and rails
+
+I really needed to get some stuff into my CAD design after doing so much research on T-Nuts and rails.
+
+I decided to go with HGH rails because they have the highest price to rigidity ratio which is exactly what I needed. They're decently tall, very rigid and will definitely be good for this project. It's really easy to mount rails like these into the extrusion because I can just directly screw them in.
+
+I'm really bad at CAD so it took a bit too long, but I got the rails into my design. I couldn't directly fasten into the extrusion slot because it was all at an angle, so I mounted the rails to the face and then offset them to be the center of the rails on the extrusion from looking at the specs on misumi for the 4040 extrusion.
+
+![[Pasted image 20250507205807.png]]
+
+![[Pasted image 20250507205851.png]]
+You can see that I chose to mount them to the inner rail of the extrusion, this is because I want to evenly spread out the weight along the plate to give maximum rigidity. I still feel like the rails could be even closer to the center, but instead, I might actually just increase the size of the bed to offset the inner weight.
+
+I found the CAD design for the rails directly on Limo (which I'll probably end up using to buy the rails), and this included the rails and the carriages.
+
+Because the CAD design included both the rail and carriage, I had to import them separately into the assembly from my document (they came as 2 separate different parts in my part studio).
+
+![[Pasted image 20250507210159.png]]
+
+I then added them to the assembly by using a combination of planar mates to be able to move them along the Y, a fastened mate with an offset, to put the perfect distance between them, and then I grouped all 4 rails after offsetting them so they slide together.
+
+![[Pasted image 20250507210343.png]]
+
+I did some really annoying math using the carriage and the dimensions of the baseplate to properly align them.
+
+![[Pasted image 20250507210437.png]]
+
+Next I added the bed into the CAD design. I'm heavily considering switching to a 30x30cm work area for rigidity which I know wasn't my initial goal but I feel like it's for the best. It gives nearly 2x the rigidity and will have a way higher likelihood of milling aluminum at a good rate. I might be able to sneak in a couple cm too along the X or something but I'll see.
+
+Because I'm really considering making it smaller, I designed the baseplate off 30x30cm dimensions. I did all the annoying math and put the screw holes so there's enough clearance for them to fasten to the rails. I also put a chamfer on the top of the holes for the screw head.
+
+![[Pasted image 20250507210757.png]]
+
+Then I simply mounted it using another hole for reference using a fastened mate and now we have a moving gantry.
+
+![[Pasted image 20250507210841.png]]
+
+While this all looks pretty good, there's LOTS OF PROBLEMS, here's a couple:
+- Enough clearance for the screws and the proper space for a clean chamfer.
+- The rails probably need to be longer so the mil can touch the middle of the base-plate along the Y axis
+- Slight misalign of the screw holes for some weird reason (shown below)
+- Proper bed thickness and dimensions for maximum rigidity and screw depth
+- Proper frame dimensions to accompany the new bed size of 30x30cm
+
+![[Pasted image 20250507211033.png]]
+
+(weirdly aligned screws)
+
+So tomorrow, I'll probably work on fixing all these issues, because I CANNOT have too many issues when I'm assembling the whole thing. Costs add up FAST. I also maybe want to do some sponsorship outreach (which might be better for the weekends). But aside from that, my CNC mill design is really coming together, it's definitely hard work, especially because of the fact that I'm not an engineer and in school for 6 hours a day :(.
+
+**Total time: 30 hours**
