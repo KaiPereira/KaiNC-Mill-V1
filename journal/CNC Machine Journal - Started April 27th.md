@@ -35,7 +35,7 @@ The next part of this day was figuring out how to build a strong frame but for c
 
 I was still very confused about what type of extrusions, 30mm, 40mm, 80mm, I had absolutely no clue and no idea what style to make them.
 
-Something I did decide on though was a **moving gantry style CNC mill**. I made this decision for quite a few reasons:
+Something I did decide on though was a **fixed gantry style CNC mill**. I made this decision for quite a few reasons:
 - The Y axis can be controlled by one stepper motor and uses less material because a fixed style needs to have decently long, very rigid steppers on both sides of the machine with longer ball screws and more expensive parts used to make it work.
 - It's a very rigid and efficient design that will maintain strength but also be decently cheap still
 
@@ -75,7 +75,7 @@ Just 2 simple aluminum extrusions but it's really exciting to see something actu
 
 I knew this day would be a bit slow because I was starting to put some stuff on paper and making many revisions to my vision.
 
-The first thing I wanted to get down was some of the base frame calculations. I needed enough space for the moving gantry for the spindle to be able to get every part of the 40cm plate. This means that I would need 20cm of space on each side of the plate, so I decided I could probably leave the ball screw at 40cm leave (which I feel like I'll regret late) and make the rails longer for support. If the ball screw attaches to the plate at the center, this should give it a full 20cm in each direction.
+The first thing I wanted to get down was some of the base frame calculations. I needed enough space for the fixed gantry for the spindle to be able to get every part of the 40cm plate. This means that I would need 20cm of space on each side of the plate, so I decided I could probably leave the ball screw at 40cm leave (which I feel like I'll regret late) and make the rails longer for support. If the ball screw attaches to the plate at the center, this should give it a full 20cm in each direction.
 
 I also knew that the spindle couldn't reach the farthest side of the plate because it's a big chonkier so I needed to have a little bit of space on the sides. I decided that about 5 - 10cm would suffice.
 
@@ -83,7 +83,7 @@ I also knew that the spindle couldn't reach the farthest side of the plate becau
 
 With this in mind, I started to design the base of the frame. I decided that 500mm extrusions for the sides and 400mm extrusions for the supports would work nicely and give me enough space.
 
-But while putting together the extrusions, I noticed that putting the center extrusions flush with the side of the plates reduced the rigidity because there was less space in the center which was where a lot of the weight was, so I decided that moving the inner extrusions more towards the center would increase rigidity.
+But while putting together the extrusions, I noticed that putting the center extrusions flush with the side of the plates reduced the rigidity because there was less space in the center which was where a lot of the weight was, so I decided that fixed the inner extrusions more towards the center would increase rigidity.
 
 ![[Pasted image 20250503190111.png]]
 Now I modeled everything into Onshape using these revisions and calculations, and created a basic base frame.
@@ -258,11 +258,11 @@ Because I'm really considering making it smaller, I designed the baseplate off 3
 
 ![[Pasted image 20250507210757.png]]
 
-Then I simply mounted it using another hole for reference using a fastened mate and now we have a moving gantry.
+Then I simply mounted it using another hole for reference using a fastened mate and now we have a fixed gantry.
 
 ![[Pasted image 20250507210841.png]]
 
-While this all looks pretty good, there's LOTS OF PROBLEMS, here's a couple:
+**While this all looks pretty good, there's LOTS OF PROBLEMS, here's a couple:**
 - Enough clearance for the screws and the proper space for a clean chamfer.
 - The rails probably need to be longer so the mil can touch the middle of the base-plate along the Y axis
 - Slight misalign of the screw holes for some weird reason (shown below)
@@ -276,3 +276,57 @@ While this all looks pretty good, there's LOTS OF PROBLEMS, here's a couple:
 So tomorrow, I'll probably work on fixing all these issues, because I CANNOT have too many issues when I'm assembling the whole thing. Costs add up FAST. I also maybe want to do some sponsorship outreach (which might be better for the weekends). But aside from that, my CNC mill design is really coming together, it's definitely hard work, especially because of the fact that I'm not an engineer and in school for 6 hours a day :(.
 
 **Total time: 30 hours**
+
+## Day 9 - Adjustments and research
+
+I added a lot of stuff to the CAD design yesterday, but a lot of it was added in a sloppy way, so I really needed to clean up my design.
+
+The main problems/errors I had were:
+- Screw clearance (which I thought was probably good, I'm probably going to come back to this later)
+- Too short of rails (which was definitely a problem)
+- Misaligned screw holes (another massive problem)
+- Proper bed thickness (definitely still an issue)
+- Frame dimensions for the new 30x30 bed (definitely an issue too)
+
+I felt like I could comfortably ignore the screw clearance because I know I'll probably come back to it when researching all the proper screws, bolts, t-nuts I need and whatnot so I didn't want to worry about that right now. I definitely needed to get these other issues fixed though.
+
+First I focused on the rails being too short. I had 2 options of fixing this:
+- Increase the length of the rails, affecting rigidity, possibly having to make the machine larger
+- Decrease the distance between the 2 carriages on each side, maybe affecting rigidity
+
+I decided to go with the latter because the rails were only about 1cm too small in total (on both sides). This means, I'd only have to decrease the distance between the 2 rails, by 1cm which doesn't have a massive impact. I'll definitely be running simulations later to test how strong this will actually be though.
+
+Because the center of gravity was a bit wack on the bed now, I decided to increase the side of the actual plate to offset some of the stress put on the center of the bed. So now the bed is 35x35cm which means the bed will be approximately 5kg, which will give the machine some more heft and rigidity.
+
+Fixing the screw holes was pretty easy (but a bit annoying). I re-calculated the whole positions (with the new carriage placements too) and it seems work well. There still seems to be a tiny offset though which is a bit bizarre, I think it might be because of mistakes with the model, but I might revisit it, if I deem it a problem later on.
+
+![[Pasted image 20250508203738.png]]
+
+*Straight on view of the weird holes*
+
+Because I was making the work area a full 10cm smaller, I could comfortably decrease the width of the frame from 580mm to 480mm, which will give a big boost to rigidity and make my mill much more capable of milling aluminum and giving it long-term strength. I honestly think this decision is for the better, and will probably save me time, money and pain.
+
+Now the mill was looking much better and much stronger, I increased rigidity, fixed many small errors and made some good progress. I'm still really horrible at designing as this is my first major engineering project I've worked on.
+
+But now, I needed to work on some pressing matters. The X and Z axis. I always wanted to do a fixed gantry style machine, because I knew that supporting the whole gantry on rails and ballscrews would need to be horribly rigid and cost lots of money in the process.
+
+With a fixed gantry style, I could just mount sideplates and then attach the gantry, being very rigid. The thing is though, you can't create the side plate out of anything. Extrusion probably wouldn't cut it, being the gantry is a lot of weight, and the extrusions will probably bend underneath the sheer pressure of a mill.
+
+So I have a few options for the side panels:
+- Multiple, rigidly mounted extrusions on the side
+- Solid aluminum plate with drilled holes (pretty thich)
+- Solid steel plate with drilled holes (maybe welded?) (less thick than aluminum)
+
+I'm still debating what to do, and I need to look more at the pro's and con's of each, but I feel like extrusion might not be an option. I feel like it just doesn't have the rigidity to support the most important part of the CNC mill, and it'll probably be quite pricey to make it work.
+
+> "A Chain Is Only as Strong as Its Weakest Link"
+
+The problem with working with aluminum and steel though is I'll probably need to drill custom holes, and have a custom sheet cut to what I need it to be probably like so:
+
+![[Pasted image 20250508205736.png]]
+
+But this gives an insane level of rigidity, and I could definitely mount another slab on-top for the X axis. Tomorrow I'll look into more options for this, and I also want to take a look at BALL-SCREWS!!! I didn't get too much time to work on but I still got a solid amount done!
+
+**Total time: 32 hours**
+
+
