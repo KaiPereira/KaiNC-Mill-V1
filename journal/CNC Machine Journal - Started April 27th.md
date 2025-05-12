@@ -329,4 +329,49 @@ But this gives an insane level of rigidity, and I could definitely mount another
 
 **Total time: 32 hours**
 
+## Day 10 - Reinforcements and side plates
 
+I've decided that it's definitely better to go with a 4080 frame vs a 4040 frame. I want to modify my layout so it uses 4080's on the outside, and then some 4040's in middle to support the rails.
+
+I feel like this is honestly a necessity, because to be able to mount the side-plates, I need to have a strong enough mount which only the 4080 provides. I also definitely need some more rigidity to be able to be able to mill aluminum.
+
+The 4040's I'm probably going to use for the center, will also be a different style from the ones I used before. Instead of having 2 rails, they'll just have 1, they look like this:
+
+![[Pasted image 20250510205535.png]]
+
+**Instead of** 
+
+![[Pasted image 20250510205544.png]]
+
+These 4040's are a tad bit more expensive, but they're way more compatible with the 4080's than the 2 rail ones and are a bit more rigid.
+
+Now I have to actually rebuild the frame in my design.
+
+First off I got the basics of the frame down. The outside is 4080's and the 2 inner beams are 4040 (which I'll maybe turn into 4080's).
+
+![[Pasted image 20250510224517.png]]
+
+~~The beams are going to be attached by 4 T-Nuts on each beam and maybe some other supports on it too.~~
+
+After a bit more research, using T-Nuts probably isn't feasible. Maybe using T-Nuts with something else could work, but probably not. I've been looking at a couple other options though:
+- Internal corner connectors (rigid and cheap, basic tools)
+- Diagonal bracing on some areas to make it stronger, like the side panels
+- Plate that attaches the corners
+- External connectors of some sorts
+- Maybe some T-Nut stuff, I'm not too sure
+
+I'll have to look into this a bit more, but for now I wanted to fix my CAD drawing so that it included the 4080's and 4040's instead of the old 4040's with 2 rails.
+
+It wasn't too complicated to change (though it probably took me too long because I kinda spent too long fixing really minor mistakes I was making), but I finally got it done, and it was looking RIGID. I feel like this is the perfect price/rigidity ratio, and I Feel like it will work perfectly, especially with the strong linear rails!
+
+![[Pasted image 20250511211941.png]]
+
+I'm planning on probably doing aluminum plate, maybe like 10 - 12mm thick, for the side panels, because they need to be one of the most rigid parts of the machine and I feel like plate is probably the cheapest way to get that.
+
+I feel like my budget might be going a bit over, but luckily Hackclub is about to release their next event where I'll be able to get a $350 grant for my project, which will hopefully allow me to build this for little out of pocket! (I might even get to go to San Francisco too!). I'm estimating the project will probably come out to a bit over $400, more than the $300, but I like to set really hard goals and then fall short a bit, but still over-perform!
+
+So for tomorrow, I really need to think about how I'm going to actually connect these extrusions and what I'm going to do for side panels. I haven't had much time in the past 3 days to work on this, so I'm glad I'm finally getting an update out. This update probably took me about 3 days, but I still got quite a bit done, and I can definitely feel like skills improving. I also still want to maybe reach out to some local companies about sponsoring, especially for the side panels, which would be a LIFESAVER!!
+
+The CNC mill is coming along amazingly well, and it's really motivational to see a realistic frame come out, and I'm really excited to keep on working on this.
+
+**Total time: 36 hours**
