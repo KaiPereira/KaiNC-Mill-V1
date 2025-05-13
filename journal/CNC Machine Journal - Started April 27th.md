@@ -375,3 +375,41 @@ So for tomorrow, I really need to think about how I'm going to actually connect 
 The CNC mill is coming along amazingly well, and it's really motivational to see a realistic frame come out, and I'm really excited to keep on working on this.
 
 **Total time: 36 hours**
+
+## Day 1 - Fastening
+
+I found this really cool build guide that shows all the steps in building an [Avid CNC](https://www.avidcnc.com/support/instructions/rotary/assembly/) . It gives me a lot of cool ideas on fastening.
+
+Personally I feel like I'm going to go with a mix of T-Nuts, internal connects and external brackets and now I'm also looking at anchor fasteners.
+
+![[Pasted image 20250512065201.png]]
+
+*Anchor fasteners* 
+
+I found [this tutorial](https://toolguyd.com/hardware-for-connecting-t-slot-aluminum-anchors-end-fasteners-brackets/) gives cool ways of attaching 4040 together. It's honestly pretty boring researching different ways of fastening stuff together, but now that I had a bit of an idea how to fasten stuff I wanted to do some side panel stuff and maybe work on the X axis a bit.
+
+There weren't many resources on side panel dimensions so I kind of winged it, but I knew it had to be rigid, and that the Z height couldn't be too large or it would decrease rigidity and maybe move a bit. So I did a bit of calculations and decided I wanted a clearance of at least 10cm, so I kind of just arbitrarily set the Z height to be 250mm. This gave me 13cm of clearance and I think it's going to work. I feel like it's probably not hard to make it taller or shorter if I need, but this gives me a good amount of space while keeping rigidity in mind. I also just made the side panels 12mm thick, and 15mm wide, I'm honestly not too sure how big to make them, but it's easily changeable.
+
+![[Pasted image 20250512184520.png]]
+
+Next I wanted to work on something a bit new, the X axis. The X axis is going to be between the 2 side panels and needs to be long enough to clear the work area while maintaining rigidity. There's tons of different ways of attaching the X axis on:
+- Bolting extrusions to the side panels, and then mounting rails onto those
+- Bolting a beam or another extrusion to the top face of the side panels and then attaching the rails onto that.
+- Bolting an extrusion or another panel to the front or back face of the side panels
+- And there's probably a couple other ways but those are the main ones
+
+I also recently found this site called [open builds](https://builds.openbuilds.com/?category=cnc-router-builds&id=286) that literally just has like hundreds of hobby cnc mills, routers, lathes and so much more. This is going to be a massive spot for inspiration on design ideas and whatnot. Personally I feel like I probably want to just bolt some extrusion to the side panels and then mount the rails onto them. 
+
+I can either bolt 2 smaller 4040's or something to them, or one big extrusion panel to act as a face, and I feel like the price difference isn't actually huge so I'll just compare rigidity. I feel like maybe using some extrusions to support the beams in the dead-space beside the bed too would make it even more rigid.
+
+Overall it was a really boring day of just researching and brainstorming. I know it probably looks like I didn't do much, but I'm spending a lot of time on the brainstorming so I can maximize the success of my project. I feel like people don't use enough thinking on their projects these days, but it's really what the key to a perfect product is.
+
+It was also next to impossible to find resources on connecting 4080 for CNC mills, so I had to really dig to find information, they'res no good tutorial or overview on how to make a CNC mill so that's really what I'm trying to do. So now I have a really good idea on how to connect the extrusions, I also pretty much know how I'm going to do the side panels and also the beam between the side panels.
+
+Tomorrow I really want to get the beams into the CAD design (along with the rails) or work on connections which I always like procrastinating.
+
+*If you got this far into the log so far, just remember:*
+
+> **Perfection in Details** - Steve Jobs
+
+**Total time: 39 hours**
