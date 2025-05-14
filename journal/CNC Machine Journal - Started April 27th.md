@@ -413,3 +413,65 @@ Tomorrow I really want to get the beams into the CAD design (along with the rail
 > **Perfection in Details** - Steve Jobs
 
 **Total time: 39 hours**
+
+## Day 12 - Gantry and ballscrews
+
+Alright so I've gotta work on the gantry bridge, that connects the 2 side panels, has 2 linear rails, and moves with a ball screw. This is a KEY part of the CNC mill, so it needs to be well made. 
+
+The 2 side panels are going to be 10 - 12mm thick aluminum plates (other dimensions are a bit unknown at this point) and now i just need the bridge. There's 3 main options I can go with for the bridge:
+- One wide piece of extrusion that will go from one to the other and will have both the rails on it (like 8080 or like 2080 I'm not too sure really)
+- 2 smaller pieces of extrusion like 4040 that will be separate bolted and separated, each carrying a linear rail, with the ball-screw probably in the center
+- 2 smaller extrusions like 4040, bolted together using joining plates and then fastened together to form a wide piece of extrusion that might be cheaper than just buying a wide extrusion.
+
+I'm going to try using a piece of 8080 I think, because it's going to be really strong, and I don't think I'll have any problems with it! The problem is it's a bit expensive, but I think it is the most rigid option, and the easiest to just fasten on. Another problem I see with it though, is the rails are probably going to be pretty close to each other, but I could actually mount the linear rails to the top and bottom, which would probably be pretty effective, because it makes use of gravity to keep the rails on, making them more effective.
+
+When I added the 8080 extrusion on though, I noticed that I didn't account for the lower clearance when there's something big up there, so I added 5cm to the side panel, to give 11cm of clearance on the Z.
+
+Now the mill is looking pretty rigid, and I feel like this is the perfect size I need, and the panels just by change, makes it look like the spindle can be perfectly center on the work area with a bit of extra clearance for the rails and ballscrews:
+
+![[Pasted image 20250513201441.png]]
+
+Now I wanted to put the rails onto the gantry bridge just to see how much space I'm working with here, and because that was my original idea for mounting the rails onto it.
+
+But when I added them in, I noticed that it doesn't seem like there's enough space for the Z axis mounting plate to be put on, and I feel like this is probably a rigidity issue.
+
+![[Pasted image 20250513201601.png]]
+
+I've decided at this point that's it's probably a good idea to get my ball-screws into the design, because it's actually going to impact a lot of my decision making. I know I can't fit the ball-screw in between the rails here, like I'm planning on doing with the bed, so I need to come up with a different way of putting the ball-screws or rails on. My 3 ideas are:
+- Mounting the rails on the top and bottom of the extrusion and then passing the ball-screw though the center, I'm worried about concerns of efficiency though when gravity starts pulling the z axis down onto the bottom rail
+- Making a larger extrusion and then mounting the rails onto that with the ball-screw in the center
+- Leaving the rails like this, but putting the ball-screw on the top - this feels a bit sketchy though so I don't really want to do this.
+
+But now I kind of have to put this on the back burner and work on choosing my ball-screws and getting them into my design.
+
+There's TONS of different types of ball-screws and screws alike, which all have their advantages and disadvantages, the problem is really choosing the ones I need for my CNC mill. The main criteria I have are rigid and decently cheap.
+
+Here's the main types of screws I could use (if you want to take a look at the technical specs, [this document](https://www.thk.pl/dopobrania/bnf.pdf) is pretty good):
+- Rolled ball screws - budget and good rigidity
+- Ground ball screws - higher precision and more expensive
+- Ball re-circulation style ball screws - Some wacky expensive thing I don't know (I'm not worrying about these honestly)
+
+and then there's grades for all these too, ranging from C0 (most precise) to C10 (least precise). **C7 is kind of the mininum accuracy you want for a CNC Mill and everything above that works**.
+
+AND THEN, there's a bunch of identifying measurements for all of them. Let's take the **SFU1605-600mm** for example:
+- S - Shaft
+- F - Flange Nut
+- U - Preloaded single nut
+- 16 - 16mm screw diameter
+- 05 - 5mm lead
+- 600mm - overall length
+
+So there's a lot that goes into choosing the ball-screw. 
+
+After doing a bit of research, and looking at the [PrintNC BOM](https://docs.google.com/spreadsheets/u/1/d/10nDvj6Zu1wDU4phpNNXf87eMyTvTe-g-3U1kMiCBQpM/copy?usp=sharing) (for all you newbies out there, a BOM is a Bill of Materials, it's basically a list of all the machine **parts**), I found out that I can use 2 different types of ball-screws for different parts of the machine.
+
+1. The Z axis is going to have to work against gravity, so it needs to have more lifting power and less speed, this means I can go with a thinner ball-screw like an SFU1204. 
+2. While the X and Y axis need more speed because they cover lots of distance, and less mechanical advantage and are also not fighting against gravity like the Z axis, this means we can use a thicker ball screw like the SFU1610 for the X and Y axis.
+
+The SFU1610 is a bit more expensive though, but the price difference is only $10 so because I'm using only 2, I think it's a good trade-off to make.
+
+Now I've decided what ball-screws I'm going to use, all I have to do is get them into the CAD design and then workout some spacing. I have a feeling, I might need to make the space between the extrusions below the bed a bit larger so that the ball screw can fit in and be nice and rigid, but we'll see when I'm designing this stuff.
+
+I feel like I got quite a bit of stuff done today and tomorrow I'll probably work on the CAD and then probably work out the new headaches that arise from adding them in.
+
+**Total time: 41 hours** 
