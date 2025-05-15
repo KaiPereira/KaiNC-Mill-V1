@@ -475,3 +475,89 @@ Now I've decided what ball-screws I'm going to use, all I have to do is get them
 I feel like I got quite a bit of stuff done today and tomorrow I'll probably work on the CAD and then probably work out the new headaches that arise from adding them in.
 
 **Total time: 41 hours** 
+
+## Day 13 - Everything Ball-Screw
+
+Ball-screws are so complicated and I just keep on learning more and more about them. First of all, there's different types of ball NUTS:
+- Single nut - Compact not much backlash
+- Double nut - Precise
+- Flange type - Easiest to mount
+
+Also a term I've been learning is ***backlash*** which is essentially if a part is loose or not and will degrade accuracy of your parts. It's important that ALL parts have minimal backlash to ensure a rigid machine that cuts nicely. That's why I've found it important to use high quality parts!
+
+And then you actually need a couple things to go with your ball-screws. These are the end supports, couplings, ball nut housing, thrust bearings and a motor mount. Pretty much all of these I didn't realize you needed so hopefully they're cheap :)
+
+Here's a bit of an overview of each:
+- **End supports** support the ball-screw on both sides, they come in 2 types:
+	- Fixed support - Uses a radial ball bearing which supports the radial loads
+	- Floating support - Uses an angular contact thrust bearing which takes axial/radial forces off the screw (I'll digest these down soon, but if you want to learn more, check out [Kiwi Motion](https://kiwimotion.co.uk/technical-articles/ball-screws/ball-screw-end-fixity/))
+- **Couplings** connect the stepper motors to the ball-screw shaft
+- **The motor mount** holds the motor in alignment with the screw
+- **The thrust bearings** are inside of the end supports and lets the screws rotate
+
+All of these are next to essential (I think there's some cases where you don't need all) so I definitely need to include them, I'm just not quite sure which ones.
+
+After doing a bit of research, I've found out that a combination of **floating and fixed** end supports are the only really viable option. Now I thought that these supports would maybe just cost like $4 a pop or something, but NOPE, they're like $22 for each set.
+
+![[Pasted image 20250514073947.png]]
+
+I'm definitely considering finding a better supplier of them, but I actually might be eligible for the free freight if I include these too, maybe I could also get free freight + a coupon code.
+
+I also really want to send maybe a sponsorship email to [LIMO bearings](https://limobearing.com/) because they all-around have the best prices of the any place I've looked at so far. So that's definitely something on my TODO, although, they are chinese so it might be a bit harder!
+
+But anyways, I'm not quite sure what the naming conventions for these are, but I know that the 1610 ball-screws need BK12/BF12 supports and the supports for the 1204 ball-screw is the BK10/BF10!
+
+It really annoys me that these are so expensive, and it just makes me think, that if I had all the parts to mill these myself and other parts, how much money I would probably save (though with a lot of pain). I think I'm a bit off track with pricing though, and I feel like I'm aiming for about $500 now. But I'm still really happy I get a $350 grant from HackClub because that will carry the project so hard. (if you're a high-school/middle school student, JOIN [HACKCLUB](https://hackclub.com/))
+
+From looking at the LIMO bearings site a bit more, I've found that they actually have all the parts I need for the ball screws, but they're SOOO EXPENSIVE, which is definitely making me wanna find a different supplier for my ball-screws.
+
+![[Pasted image 20250514075757.png]]
+
+
+It would cost me nearly $75 per ball-screws, which is a bit too much, I'd prefer if all the ball-screw came out to $150, which I think should be definitely possible. It's just really annoying the LIMO doesn't have like a set that's maybe cheaper than all of these separate parts combined!
+
+After doing a bit more research, with a lot of deep diving, I think I could find some good stuff on aliexpress for a bit cheaper, but with the no shipping fee's on my order, it might be a better idea to get from LIMO. All the parts from LIMO come out to around $320, which I feel like is a bit too expensive.
+
+![[Pasted image 20250514155216.png]]
+
+I also need stepper motor mounts, but I feel like I'll be able to get these for free or so (somehow, someway I don't really know) so I'm not going to include these quite yet.
+
+Now let's price in extrusions and mounts, and BOOM, we're at like $600. So I feel like the ball-screws and the rails are the 2 things I need to bring down in cost.
+
+BUT GOOD NEWS! [Undercity](https://highway.hackclub.com/) just dropped while I was working on this so now I'll get a $350 grant from this!!!!
+
+Now I need to kind of figure out what size shaft couplings to get. Shaft couplings come in all shapes, sizes and types. Here's a quick overview of the 2 main types I really care about:
+- Rigid couplings - can't really tolerate any misalignment's
+- Flexible couplings - Can accommodate small inconsistencies/misalignment's and absorbs shocks and vibrations better
+
+*This is a flexible coupling by the way:*
+![[Pasted image 20250514163019.png]]
+
+And then there's lots of different sizes and a couple more types which I'm not going to go into detail about because they're all very complicated to describe, just check out [Linquip](https://www.linquip.com/blog/types-of-flexible-coupling/). I'm going to go with flexible/jaw style couplings because there's going to be lots of action and a bit of tolerance on my mill and they'll help absorb some vibrations.
+
+But the sizing is really weird on couplings so I gotta figure that out now. I know that my stepper motors have a shaft diameter of 8mm and that my ball-screws have a shaft diameter of 10mm, so I need a flexible coupling that accommodates for that.
+
+I honestly might just order the flexible couplings from amazon because I have like $150 in amazon credits I really need to spend, and it's hard to tell from LIMO whether their 10mm flexible coupling will work.
+
+Now I need to figure out what screw nut housing to use. Base off the LIMO bearing sizing chart, I think I can just go with the *ID 28mm*. There's also steel and aluminum ones, personally I'm just going to get the aluminum ones because while they're less rigid, my whole mill is made out of aluminum so it should balance nicely, and it saves me like $30 and it's easy to switch them out if I make a mistake!
+
+![[Pasted image 20250514163236.png]]
+
+*Some screw nut housings*
+
+But anyways, I know exactly what type of ball-screws I want, so time to model them in! These are all the parts of them:
+- SFU1610 or SFU1204 Grade C7 minimum
+- BK/BF 12 or 10 support units
+- Flexible Shaft Coupling
+- Aluminum DSG1610 housings
+- Stepper motor bracket mount - I'll think about this more because I'm not too sure about these yet
+
+![[Pasted image 20250514163004.png]]
+
+AND WOW, THAT'S A LOT OF INFORMATION, for me too guys, don't worry 😭 . And just like that the day went by without me even working on the CAD.
+
+I pretty much have the ball screws dialed down, it would be nice to bring down the costs of the ball bearings but I can actually CAD them now. I got a LOT of stuff done today, and I'm so glad that the majority of the ball screw stuff is finished now, so I can focus on the actual important stuff.
+
+*I kinda LOCKED IN today*
+
+**Total time: 45 hours**
