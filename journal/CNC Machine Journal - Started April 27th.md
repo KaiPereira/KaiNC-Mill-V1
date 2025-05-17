@@ -1,4 +1,4 @@
-
+ 
 ## Day 1 - Brainstorming
 
 On the very first day, I set out defining the goals I wanted for this project and actually learning about the pain of making a CNC I'm going to go through.
@@ -561,3 +561,59 @@ I pretty much have the ball screws dialed down, it would be nice to bring down t
 *I kinda LOCKED IN today*
 
 **Total time: 45 hours**
+
+## Day 14 - Let's CAD ball screws!
+
+First of all I grabbed the CAD files for the ball screw off of LIMO bearings and then imported them into Onshape pretty easily. But the thing is, they give you the whole model, not the drawing or anything, so I'm having trouble making them bigger.
+
+![[Pasted image 20250515065329.png]]
+
+Using the mirror tool I can kind of get someone that looks nice at first glance, but I can't really do specific sizes. Time to consult the internet :(
+
+![[Pasted image 20250515065654.png]]
+
+
+Using transform actually gives me pretty nice results, I can line up the bearings and can pretty much control the size with some annoying math (but there's probably another way honestly). If I don't find a better way, this kind of works!
+
+![[Pasted image 20250515065949.png]]
+
+Now using some janky transformations, I have the different length ballscrews I need. I haven't quite started on the Z axis, but I know I need a 400mm ballscrew and a 500mm ballscrew (not exactly those but close enough until I make edits).
+
+I used a boolean to turn all the separate components into one, which I didn't even know existed, but it works great!
+
+Now I just repeated this for all the components I needed:
+- SFU1204 Screws
+- BF/BK supports
+- Aluminum housings (I used the steel model though because I think they're the same, maybe double check this though)
+- Motors
+
+The hardest part to model way the stepper motors, because I got them from Facebook marketplace, they weren't like too common so it was pretty hard to find the model. I knew the exact model though, so I had the dimensions of them (using a page from [walmart](https://www.walmart.com/ip/Nema-23-Stepper-Motor-1-3N-m-4-0A-55mm-Length-With-8mm-Shaft-Diameter-For-CNC-Engraving-Milling-Machine-Low-Noise/14954450443)).
+- 55mm long
+- 8mm shaft diameter
+- About 65mm wide
+- About a 20mm long shaft
+
+So I searched up "NEMA 23 models" and then looked on grabcad for one with similar specs (because I couldn't find an exact model for this motor) and I came across [this one](https://grabcad.com/library/stepper-motor-nema-23-57bygh201-1). It had nearly the exact specs except the shaft diameter which is 8mm on my motors, but I'm not too sure if this matters because the design doesn't need to be exact, just the parts (I feel like I'm going to regret this later).
+
+![[Pasted image 20250516234252.png]]
+
+*Looks pretty accurate*
+
+![[Pasted image 20250516234503.png]]
+
+*Not too sure if this is the exact specs of the aluminum one (this is the steel one)*
+
+![[Pasted image 20250516234543.png]]
+
+*Looks good*
+
+![[Pasted image 20250516234616.png]]
+![[Pasted image 20250516234633.png]]
+
+*Couplings look good*
+
+I kinda procrastinated doing all this because doing so much work on one project tends to burn me out pretty fast so I just did 2 hours over 2 days for this stuff. But it's looking good and I'm excited to actually put it into the assembly. The ball screws are giving quite a bit of lag so hopefully that doesn't impact the assembly too much!
+
+I also haven't done to coupling yet because it's like a weirdly specific coupling I need and I couldn't find a model for it. But anyways, I'll see ya tomorrow because it's midnight :)
+
+**Total time: 47 hours**
