@@ -617,3 +617,28 @@ I kinda procrastinated doing all this because doing so much work on one project 
 I also haven't done to coupling yet because it's like a weirdly specific coupling I need and I couldn't find a model for it. But anyways, I'll see ya tomorrow because it's midnight :)
 
 **Total time: 47 hours**
+
+## Day 15 - More ball screw shenanigans
+
+Now that I had everything except for the couplings modeled, I wanted to assemble some of it in my CAD workspace.
+
+Things were getting a bit messy in the document though as I had so many part studios and multiple assemblies that I created some separate folders just to organize things a bit.
+
+The main thing I wanted to assemble was the ball screw sub-assembly which was:
+- One ball screw
+- A BK and a BF support on each side (the fixed support was on the same side as the coupling)
+- The ball screw nut
+- Stepper motor
+- Shaft coupling
+- Motor mount
+
+I had everything in the design except for the shaft coupling because it was still a bit perplexing to me.
+
+Remember how I was talking about how the stepper motor mount brackets were really expensive and that I couldn't add them in because of their price. I just figured out that they actually have angular bearings in them which are the same ones as the BK support, so I can actually replace the BK support with the motor mounting bracket! This is absolutely amazing because it simplifies the building and only costs me an extra $15.
+
+![[Pasted image 20250517140044.png]]
+*Im dumb*
+
+So now I just had to find the right mount and then just put the STEP file into onshape!
+
+
