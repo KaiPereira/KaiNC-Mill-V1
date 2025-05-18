@@ -641,4 +641,24 @@ Remember how I was talking about how the stepper motor mount brackets were reall
 
 So now I just had to find the right mount and then just put the STEP file into onshape!
 
+I thought that maybe the stepper motor bracket would work, but after putting it into the CAD, I figured out that there was no proper size for it :/ 
 
+![[Pasted image 20250518001028.png]]
+
+*Motor mount too small*
+
+I was still a bit burned out today so I didn't really want to deal with it for now. But I think maybe just a mount with the floating support would be the best and probably cheapest option and would still be pretty simple. 
+
+Now I just wanted to assemble the stuff I had already gotten together so I could start visualizing the ball-screw assembly a little bit more easily. Here's a brief overview of how the assembly will work:
+- The base screw and the bearing is the key things that are moving, the other components are static/rigid
+- The BK/BF supports are stuck to the frame and don’t move, the rotation from the screw into the stepper is transferred through the support bearing
+- This part confuses me a bit but the screw nut/housing is stuck down to the screw and stays upright, it’s a bit confusing to me because the nut isn’t actually rotating so I need to kind of figure this out in my head. 
+- The motor coupling and stepper motor are moving with the bearing, the coupling is transferring the torque from the stepper to the ball screw 
+
+After a bit of thinking I think I’ve figured out the ball screw not moving the nut. The rail carriages that are fixed to the frame stop the nut from moving and instead just allowed the screws, bearing, coupling and motor to rotate (I hope this makes sense to people reading).
+
+So after implementing most of this stuff in, [I got this really satisfying screw assembly](https://hc-cdn.hel1.your-objectstorage.com/s/v3/c958d6b9822284dc5270066ebf300062c45cc4d5_2025-05-18_00-16-20.mp4) :D
+
+I wasn't too productive today but still spent some solid amount of time, hopefully I'll really be able to do some grinding tomorrow because it's a 4 day weekend! But anyways, for tomorrow, I want to figure out what shaft coupling and motor mount to use, and then maybe model them in!
+
+**Total time: 49 hours**
