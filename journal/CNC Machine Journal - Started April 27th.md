@@ -662,3 +662,44 @@ So after implementing most of this stuff in, [I got this really satisfying screw
 I wasn't too productive today but still spent some solid amount of time, hopefully I'll really be able to do some grinding tomorrow because it's a 4 day weekend! But anyways, for tomorrow, I want to figure out what shaft coupling and motor mount to use, and then maybe model them in!
 
 **Total time: 49 hours**
+
+## Day 16 - Stupid mistakes
+
+After day 15 I realized that I had to use a separate motor mount because the stepper motor couldn't fit inside of the mount. Well that was just insanely stupid, turns out the stepper motor sites outside of the motor mount not in :D, definitely should've looked into that!
+
+So turns out, I actually can use those motor mounts and they'll save me probably lots of pain.
+
+![[Pasted image 20250518112508.png]]
+
+*Some days*
+
+Well now that that's out of the way, I just have to find a good flexible shaft coupling to use. I need one that goes from 8mm to 10mm!
+
+I'm already ordering my extrusions from Misumi and Misumi also just happens to have tons of different types of couplings so I think I'll probably get from there. 
+
+After doing a run through Misumi it's WAY too expensive, just because of how they do their parts, I am definitely not getting my couplings from them. It was nearly $30 per coupling which is way out of budget.
+
+I know that the SFU1204 to NEMA 23 coupling can just be a basic 8mm to 8mm flexible shaft coupling but the other one needs to just be 10mm to 8mm. So I kind of ignored finding the 8 to 10mm again and just worked on the assembly a bit more. I realized that my ball screw assembly was a bit off so I fixed that real quick (it was just some stuff was spinning that shouldn't been spinning).
+
+I also decided to split everything into sub assemblies just to make stuff simpler and faster. I really like it this way because then I can have my BIG assembly and then medium sized assemblies that I can just easily add on and modify, it makes everything very straightforward so would suggest!
+
+Now my ball screws models didn't have these smaller ends where the bearing and stuff slide into, so I'm not too sure where to put the supports and couplings, so I kind of just arbitrarily put the middle of the coupling to the ball screw end because I think this is how it is in real life. BUT I NEED TO DOUBLE CHECK THIS.
+
+But while doing this assembly, I realized that the end of the NEMA motor travels pretty far into the coupling, so I might need a bigger coupling, smaller NEMA 23 model or it's just fine? I don't really remember how long the shaft of the NEMA 23's so I'm going to double check those now.
+
+Anyways I'm ending today a bit short because I have to wake up a bit earlier tomorrow, but today I did lots of assembly stuff but the majority of the stuff was still spent on researching.
+
+![[Pasted image 20250519000252.png]]
+
+![[Pasted image 20250519000305.png]]
+
+The main things I want to do tomorrow are:
+- research how the 2 shafts should sit inside of the flexible coupling for modelling
+- Find a model for 8mm to 10mm shaft coupling
+- Complete the ball screw assembly
+
+Though I don't have too much time to work on stuff tomorrow because I'm going to a Football game but hopefully I can get some stuff done tomorrow.
+
+Again today was mostly research and some sub-assembly stuff so it probably doesn't seem like I did too much, but I still got a solid 2 hours in.
+
+**Total time: 51 hours**
