@@ -703,3 +703,52 @@ Though I don't have too much time to work on stuff tomorrow because I'm going to
 Again today was mostly research and some sub-assembly stuff so it probably doesn't seem like I did too much, but I still got a solid 2 hours in.
 
 **Total time: 51 hours**
+
+## Day 17 - Ball screw assembly and couplings!
+
+I had 3 really simple goals that I set on day 16: Find how the shafts should sit in the coupling, find a 8mm to 10mm shaft coupling and complete the ball screw assembly.
+
+First I started off with researching how the shafts should sit in the couplings. At first I saw someone about them not being inside of the jaw part of the bearing, but after a bit more research, they're apparently just supposed to be like 1 - 2mm apart from each other, which lets the "jaw" part of the coupling take effect.
+
+![[Pasted image 20250520215206.png]]
+
+*1mm apart*
+
+So I decided to just keep this in mind while designing and when I finished the assembly I'd just put in a 1mm offset.
+
+Next I needed to figure out what 8mm to 10mm coupling I should use and the model I needed to use it for. I spent like a solid 20 minutes trying to find a well price, yet well designed one and came across this nice coupling from [Harfington](https://www.harfington.com/products/p-1054645?currency=USD&variant=42153436315897&utm_source=google&utm_medium=cpc&utm_campaign=Google%20Shopping&stkn=f8e35277684b&srsltid=AfmBOoo3W3dKq7zHDnfVlnsjls1DGzbGhYMKCxhsQO8IbnQYwJdZpyYKzGU) (the supplier is Uxcell though).
+
+It looks like it will get the job done, and I probably get free shipping on it, and it'll only cost me $20, I've also seen the Uxcell brand everywhere so I feel like I would just get a more expensive version of the same thing from the same place if I got something from somewhere else.
+
+![[Pasted image 20250520215528.png]]
+
+Now I just needed to find a model for this, the website didn't have one and I couldnt find the supplier website so I just googled it. The computers at my school kind of have google superpowers and I found a good one within like a minute on grabcad. It was the exact same specs and looked pretty darn good.
+
+![[Pasted image 20250520215735.png]]
+
+Then I just chucked a boolean on it to make it one part, then transferred it over to the assembly. Time to put all my components together now!
+
+Both X and Y assemblies I think are going to use the same ball screw setup because they're the same distance, and the Y assembly is just all the components but slightly modified to fit for 8mm and to have more power.
+
+The ball screw assemblies are just the:
+- Screw
+- Nut
+- Housing
+- BF support
+- Motor mount
+- Stepper motor
+- Flexible coupling
+
+Put together to [create these 2 beauties (video)](https://hc-cdn.hel1.your-objectstorage.com/s/v3/50de2b9fad293bffaf32df8e4e3da7d92ad289c5_2025-05-20_22-00-53.mp4). (Also thank you HackClub for the free CDN)
+
+![[Pasted image 20250520220435.png]]
+
+![[Pasted image 20250520220450.png]]
+
+My Z axis looks a little bit short, but I'll check it out when I start putting stuff into the bigger assembly and see how everything fits.
+
+And yeah, that's everything I wanted to get done today, I didn't do anything yesterday because I had that Football game but today I got all that other stuff done. I only spent like an hour and a half, but I'll just count it for an hour and just next time I do another half hour, I'll count it in for simplicity's sake.
+
+Tomorrow I have just one big goal which is to **implement all the ball screw sub-assemblies into my main assembly**, so we'll see how it goes!
+
+**Total time: 52 hours**
