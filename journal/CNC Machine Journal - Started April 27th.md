@@ -752,3 +752,48 @@ And yeah, that's everything I wanted to get done today, I didn't do anything yes
 Tomorrow I have just one big goal which is to **implement all the ball screw sub-assemblies into my main assembly**, so we'll see how it goes!
 
 **Total time: 52 hours**
+
+## Day 18 - Main assembly
+
+I really wanted to get some of the ball screw sub-assemblies into my production assembly so this was my main goal for today.
+
+First I just chucked the models into the design, and then I fastened the BK support to one side of the extrusion because I knew I wanted this to be one of the connection points for the ball screws, and then a couple of problems arose:
+- The nut housing goes **through** the bed
+- The motor mount does not align with the extrusion on the other side
+- The ball screw wasn't aligned properly **within** the BK support and motor mount
+
+So I kind of had to fix all of these separate problems. First I worked on getting the ball screw aligned within the BK support and the motor mount. I kept on trying to find the dimensions of the ball screw leads but I realized this isn't actually what I'm looking for. I needed to look for the dimensions of the lead in the support/mount.
+
+So I looked on the LIMO bearings website because this is where their manuals were for the measurements.
+
+![[Pasted image 20250521202928.png]]
+
+These docs were so convoluted that I decided that it maybe wasn't this. So I just did a quick google search and turns out, the ball screw can just align flush with the BK support. 
+
+![[Pasted image 20250521203437.png]]
+
+But the motor mount was still a bit different. It needed to be within the length of the ball screw lead. But after looking at quite a few images, I think it's safe to leave it as it is with half of the ball screw lead into the coupling and half into the stepper motor. I'll look into this more though.
+
+![[Pasted image 20250521204504.png]]
+
+Now that was a bit pointless, but at least now the ball screw is aligned better.
+
+Now that that was done, I needed to align the holes on the other side. I asked the PrintNC discord if it was fine to have only 2 bolts on each side and they said it was about the minimum rigidity needed, so I kind of want to bolt them in better, but for now, I'll just align the holes with the extrusion rail. I just increased the length of the ball screw and boom, it was pretty close. *Shown in the photo above*
+
+Now I have to tackle the ball screw housing going through the main bed. This is actually a pretty large problem and I have a couple of options:
+- Move the whole ball screw assembly *not optimal obviously*
+- Make the bed larger and then put an indent into it where the housing will sit into - a pretty good option if I dare say so, but makes the bed more expensive but maybe more rigid.
+- Find a way to decrease the level of the whole ball screw assembly to make it shorter. i.e decrease the height of the supports, make the housing and nut shorter, etc.
+
+Honestly I kind of want to think over this a bit more because it's kind of an important decision, but I feel like the second option is pretty good.
+
+Anyways, while I'm procrastinating that I found 2 really cool things. First of all, I found that I could get a ball bearing assembly from LIMO bearings and it's cheaper than just buying all the parts. But sadly it's a BF support instead of a motor mount. But maybe I can reach out to them or look into using BF supports instead of motor mounts?
+
+Another thing I saw is that 8020 actually has decently priced extrusions, it's similarly priced but I kind of have to compare them some more.
+
+Anyways I'm kind of tired but I got some stuff done still, and I really want to wake up at 6am tomorrow because I'm very productive around that time so I'm probably locking out for the day.
+
+Tomorrow I want to figure out how the housing should move the bed (because they're intersecting right now) and then do some double checks on whether the rigidity of the ball-screw is fine and if they're aligned correctly.
+
+**Total time: 54 hours**
+
