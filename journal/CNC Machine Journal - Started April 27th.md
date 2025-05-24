@@ -797,3 +797,74 @@ Tomorrow I want to figure out how the housing should move the bed (because they'
 
 **Total time: 54 hours**
 
+## Day 19 - More bed ball screw shenanigans
+
+I spent 2 days working on this but I got quite a bit of stuff done. I knew after day 18 that I need to fix the housing intersecting with the bed and to ponder the rigidity and costs of the setup.
+
+First of all, I remember seeing that deal on LIMO bearings which was $50 for one whole set of the ball-screws I was using. This would LITERALLY BRING MY COSTS FOR THE BALL-SCREWS DOWN TO LESS THAN $150. This made me so happy, but required a couple modifications. 
+
+![[Pasted image 20250523235431.png]]
+
+You see, this LIMO bearings set doesn't use stepper motor mounts, but instead just fixed supports. Now buying these instead of the separate parts would save me $100, so I needed to work out a way to use the fixed support instead of the motor mount.
+
+I knew that I probably wanted to attach the fixed end to the top of the aluminum extrusion, but this does pose some rigidity issues.
+
+![[Pasted image 20250523235644.png]]
+
+*like so*
+
+I feel like this is the easiest way of mounting it, but not the strongest, so I might re-contemplate adding a plate or something, but this is really the best I could see myself doing, without wrecking any of the other things I needed like a large work area. I reached out to some people on the PrintNC discord and they said that it was probably fine to just bolt in 2 of the 4 bolts to mill aluminum, but I might need to upgrade for steel.
+
+I feel like this is kind of cutting shortcuts, so I kind of want to figure out a way of fixing this, but for now, I had some even bigger problems. Because the flexible coupling needed to go from the end of the ball screw to the stepper, the stepper motor is quite far off the mill.
+
+![[Pasted image 20250524000335.png]]
+
+This means I have to find some sort of way of attaching the stepper to the extrusion. There's a couple ways I could do this:
+- A plate from the top of the extrusion bending upwards to connect with the screws of the stepper
+- A plate from the side of the extrusion and then up to connect to the screws of the stepper
+- Some weird support structure from the ground, I'm not too sure
+- Moving the whole structure
+
+Honestly there's only 2 things I really considered which were the plate from the top and side of the extrusion to the stepper. I decided that a plate from the side of the extrusion would be strongest and most practical, I want to keep the evenness of the top so I don't really want a plate up there. And one from the side wouldn't be too hard to machine. I could just take some scrap aluminum, put in some holes with a drill, and then bolt it in, and then BOOM, we have this support.
+
+![[Pasted image 20250524000647.png]]
+
+I decided to dissolve all of my sub-assemblies (except the ones like BF and BK supports) because I needed to start attaching smaller parts of each assembly which just wasn't working when they were sub-assemblies, so now it's all just parts in folders, which I feel like is for the best.
+
+But anyways, I needed to attach the ball screw to the bed now. There were a couple ways I thought I could do this so the bed didn't intersect the ball screw housing:
+- Raise the height of the linear rails
+- Decrease the height of the ball screw
+- Increase the height of the bed
+- Drill a hole into the bed to fit the housing into
+
+All these options were actually pretty darn good, but I ruled out changing the linear rails and decreasing the height of the ball screw assembly for obvious reasons. Then I decided that drilling holes into the bed probably wouldn't be the easiest, so I ruled out that too. Raise the bed it is.
+
+It actually took me a while to find this kind of design where you raise just the sides of the bed, but I really like it, because I can just attach scrap metal to the bottom of the bed on each side and it forms a little bridge.
+
+![[Pasted image 20250524001046.png]]
+
+![[Pasted image 20250524001103.png]]
+
+And now I can just bolt through both the bed and the plates to make it very rigid and it works pretty nicely on a budget.
+
+And now I have ANOTHER problem. So the bed is moving, it's a giant chunk of aluminum moving, so it's bound to hit something *right?*. Well turns out, it's hitting the stepper motor.
+
+![[Pasted image 20250524001229.png]]
+
+I actually about perfectly get 30cm of travel for the ball-screw but I really want 35cm because it fits within the constraints of the mill. Now I'm not actually too sure how I want to do this, there's a couple of ways I could go about doing it:
+- Raise the sides of the bed even more so the bed goes over top
+- Increase the size of the ball-screw
+- Something a bit more crazy like moving the stepper motor and then using gears
+
+Honestly I'm still considering my options, but raising the bed seems like the easiest way. But honestly, I have my 30cm of travel, I might start working on something different to keep my brain occupied, and to stop the burnout.
+
+Another thing I wanted to mention, is I have some really iffy assembly connections relating to the bed which would be nice to fix, but I haven't really found out how to fix, so those would be nice to finish too.
+
+But anyways, I did a LOT of brainstorming over these 2 days, to come up with intuitive solutions to the bed problems, and now the other axes should be easier to assembly. Because of the space constraints of the bed, it's really hard to work with it, so I feel like the X axis will be easier.
+
+Tomorrow I really want to continue working on the gantry and getting the X axis in. I'm not too sure about using that piece of 8080 up there, but it does work well, so some more stuff to think about. So yeah, X axis tomorrow and some gantry shenanigans.
+
+Lots of good work done today, but I'm still falling a bit behind on this project so I really want to get grinding tomorrow, procrastination has been getting the better of me, so I really have to power through.
+
+**Total time: 57 hours**
+
