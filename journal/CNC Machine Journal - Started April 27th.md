@@ -868,3 +868,102 @@ Lots of good work done today, but I'm still falling a bit behind on this project
 
 **Total time: 57 hours**
 
+## Day 20 - Gantry go Brrrrrrr
+
+Time to get working on the X axis! The X axis is much more simple to design because it's constrained between some walls and the rails can just ride on the extrusion.
+
+First I'm just going to put in some rails going from one end of the gantry to the other on the extrusion.
+
+![[Pasted image 20250524231618.png]]
+
+*I switched to just my laptop here so the images might look a little funky*
+
+Now I'm pretty sure it's best to put the ball-screw between the 2 sides of the gantry, so the faces of the supports touch the sides, that'll make it very rigid.
+
+Anyways I added the supports, turns out the BK support can't exactly touch the walls because the stepper still has to attach to it, and the stepper is attached to the side through it's screws. So for now I'll just leave it in the center until the coupling and stuff is modeled in.
+
+![[Pasted image 20250524233307.png]]
+
+Now I have to add some screw holes into the walls of the gantry. 
+
+Quick math: The extrusion is 8cm long, and the center of the motor will be the center of both extrusions, so down 6cm.
+
+![[Pasted image 20250524233612.png]]
+
+Now just have to add the screw dimensions in and BOOM, we have the mounts for the motor.
+
+![[Pasted image 20250524233953.png]]
+
+![[Pasted image 20250524234136.png]]
+
+Now I just have to add a center hole for the motor so that the shaft can go through, I'll just make this like 16mm or something like that so it fits the shaft nicely but maintains structural rigidity.
+
+![[Pasted image 20250524234800.png]]
+
+Now I'm going to add the coupling to the servo and then the ball-screw. My ball-screws seem bugged right now though, so I kind of need to fix those, I'm going to look through my history first and then if that doesn't work, I'll just re-import them.
+
+Okay I managed to fix it by literally just editing and un-editing them so I think it was just bugged.
+
+I kind of want to figure out what I'm actually going to use for the gantry beam though, so I might do a bit of a brainstorming session on it. There's quite a few options I could do from what I could tell:
+- 80/160 extrusion (rigid, expensive)
+- 8080 + 4080 extrusion (smaller, cheaper)
+- 8080 +8080 (rigid, mid-price)
+- C-Beam - 1 or 2 pieces (easier to work with, cheap?, not as rigid)
+- Large slab of steel tubing (Rigid, cheap, hard to work with)
+- Large piece of 100/100 extrusion (decently rigid, mid to expensive price)
+
+Alright so I've spent about 2 hours figuring out kind of the style of gantry I want. It's going to be a piece of 8080, with 2 rails mounted on the face, and a ball screw mounted to the top. The side panels will extend up to connect the ball screw supports and spacers will be mounted for the motor.
+
+I calculated the deflection of the 8080 under all this weight and it holds up well, even up to 100 lbs nicely so it should work well.
+
+You don't want more than **0.075mm** of deflection on a given axis, and mine comes down to just 0.0026mm at the MAX which is pretty good.
+
+![[Pasted image 20250527070134.png]]
+
+Now I just gotta model this in. First I'm going to delete the current ball screw just because the new one is mounted a bit differently. I'm going to move the side panel holes and add some standoffs like so:
+
+![[Pasted image 20250527070302.png]]
+
+I then need to mount the stepper motor onto the standoffs like so:
+
+![[Pasted image 20250527074106.png]]
+
+And then add the BK support fastened to the wall. A problem arose when I did this though, the screw holes of the BK support, lined up with the screw holes of the stepper motor spacers. This means that I wouldn't be able to actually bolt them in properly. It took me about a half hour to find a cool solution to this, but I came up with this ingenious design.
+
+![[Pasted image 20250527202842.png]]
+
+I mounted the motor at an angle and then just attached the support like normal. This means that the holes will line up differently, while keeping the BK 12 support in line.
+
+Now the BK support has to attach to the wall but also face a certain way. The larger end needs to be facing the stepper motor, so I can't just directly bolt the face of the BK support into the side panel. So I decided to just add some small 75mm spacers.
+
+![[Pasted image 20250527203032.png]]
+
+Now I'm just going to finish adding the ball screw and BF support like so:
+
+![[Pasted image 20250527204705.png]]
+
+*Side tangent: working with the current ball-screw part studio is sooooo laggy so it takes a while to make them longer and such which is SO annoying*
+
+Time to add the nut and housing now!
+
+![[Pasted image 20250527204935.png]]
+
+AND **BOOM** we now have ourselves most of the gantry. Now I really just have to add the carriages onto the rails.
+
+*1 minute later*
+
+Now our gantry looks sick asf.
+
+![[Pasted image 20250527211909.png]]
+
+Now I'm curious if this gantry will actually be rigid enough. I've run the calculations and the deflection is fine, but vibrations and whatnot might not be okay. Maybe I'll reach out to the good folk on the PrintNC discord for some advice.
+
+Anyways, I spent wayyy too long working on that, but it looks so beautiful and it's a design I haven't really seen yet. Most people don't use 8080 with a ball-screw to *add* rigidity, and the stepper motor mount design is pretty cool. The linear rails do seem a bit close though, but I think it's fine because the ball-screw gives more Z travel, and because the length of the gantry is pretty short, it maintains quite a bit of rigidity.
+
+While implementation was pretty simple, I spent soooo long brainstorming solutions to all the problems I faced while building it and it looks pretty good. Finally I can bring out this section of the journal after like 3 days of procrasti-working on this.
+
+Now for tomorrow, I want to figure out how I'm going to attach the ball-screw to the spindle plate and work out the logistics on the spindle too. it would be SICK to have the ball-screw facing towards the spindle plate and then just moving it from there, but I'm not too sure if it's actually feasible, but it would make my life easier.
+
+Anyways, I'm glad all that stuff is out of the way, and I can add lots of hours I worked on this to the journal!
+
+**Total time: 63 hours**
