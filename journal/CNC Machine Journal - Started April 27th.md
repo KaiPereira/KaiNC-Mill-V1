@@ -1,4 +1,10 @@
- 
+---
+title: "Aluminum CNC Mill"
+author: "Kai Pereira"
+description: "Fixed gantry style cnc mill that's designed to mill aluminum and small steel parts!"
+created_at: "2025/04/27"
+---
+
 ## Day 1 - Brainstorming
 
 On the very first day, I set out defining the goals I wanted for this project and actually learning about the pain of making a CNC I'm going to go through.
@@ -967,3 +973,7 @@ Now for tomorrow, I want to figure out how I'm going to attach the ball-screw to
 Anyways, I'm glad all that stuff is out of the way, and I can add lots of hours I worked on this to the journal!
 
 **Total time: 63 hours**
+
+## Day 21 - Some spindle action
+
+Today I really want to figure out what spindle I'm going to use. It has to be a decent price, rigid and also be able to mill aluminum. I remember seeing somewhere that a 2.2 KW spindle would work so I guess I'll start researching there.
