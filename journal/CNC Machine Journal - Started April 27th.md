@@ -977,3 +977,132 @@ Anyways, I'm glad all that stuff is out of the way, and I can add lots of hours 
 ## Day 21 - Some spindle action
 
 Today I really want to figure out what spindle I'm going to use. It has to be a decent price, rigid and also be able to mill aluminum. I remember seeing somewhere that a 2.2 KW spindle would work so I guess I'll start researching there.
+
+Now I don't actually know exactly what I want, but I have some minimum requirements.
+
+1. Has to be 1.5 - 2.2kw, this gives it enough power to mill through aluminum comfortably
+2. Must be a water cooled or air cooled spindle, milling aluminum will heat up the end mill quite a bit so it needs to be cooled.
+3. Has to be less than $150 CAD to fit within the budget
+
+*Note: an end mill is basically the cutting bit*
+
+![[Pasted image 20250528162325.png]]
+
+After a bit of research, I'm definitely leaning more towards an air cooled spindle. This is because a water cooled spindle requires lots of extra components like:
+- VFD
+- Water pump
+- Cooling water
+- Water hoses
+- Mounting stuff
+- Radiator/fans
+
+While an air cooled spindle is basically just plug and use. Water cooled is better in general because it dissipates heat more easily and is way quieter, but for my case, air cooled will work out more nicely. 
+
+I feel like I can also modify my mill if I really want to change out the spindle and it would be pretty easy, *albeit a bit expensive*.
+
+Water cooled spindles will also require a collection system and cleaning up wet pieces of metal seems kind of like a pain to do. So I think air cooled is by far a better option *for now*.
+
+Now you can't just plug the air-cooled spindle into the plug and call it a day, you need a couple of things for it to work:
+- The actual air cooled spindle
+- The VFD (Variable frequency drive) - controls the speed and allows the CNC software to use the spindle
+- Collet nut - the end-mills attach to the collet nut to secure them in place
+- Spindle mount - the spindle will mount onto this, this probably needs to be a panel of aluminum with cuts (maybe 12mm I'm not too sure)
+
+Now I'm pretty sure I can get all of this under $150 USD, which puts me still at around $600 USD for my total budget. Right now it's about $150 for ball-screws, $150 ish for linear rails (I think less actually), $150 for the extrusions, $150 for the spindle stuff, seems pretty straightforward. I'm just a *bit* worried about the rest of the electronics now so maybe I'll work on some budgeting.
+
+After nearly an hour of learning more about spindles and researching them, [this is the best spindle I've found so far](https://www.amazon.ca/RATTMMOTOR-Spindle-24000RPM-Milling-Machine/dp/B0D3WR72G9/ref=sr_1_2_sspa?crid=1O2ZYX3QQ1ZD4&dib=eyJ2IjoiMSJ9.0IUZwUY3h81t0zfoQ6I-yT8oxhC6jjNNMxLCsugiGhAKz1rTBGs5LiZVRK4MCk-sKztN_UrAl16bqnHjtNPbTVCU2s8N1k3FbtMz195JcB0O7VyA5_u1CVXNIYWbqo6k2stli5jQBHaqltHycQBAmZ33JntIyBedtB2infz1J8M9iB_vHB5DJHYDV9YdSUcszPjB99pk42nX16wdoxPi3__2C2KIpRyrcFEdds29maIW1HdY6iVn_pZskX0m7nP7yzgXLjsIYNsoRomDUz6U7FgCD3qwTl9VYWsS0ec25zw.3ijsNwp81Gl4zO944EVhg_5lviD0wNF2znU-idNhfK0&dib_tag=se&keywords=air%2Bcooled%2Bspindle&qid=1748476660&s=industrial&sprefix=air%2Bcooled%2Bspindl%2Cindustrial%2C129&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1). It's 2.2kw air cooled with an ER20 collet and support 110V. Sadly I want one that's a bit cheaper though. I've heard great things about this spindle though so maybe I can find it for cheaper.
+
+There's also something like [this from aliexpress](https://vi.aliexpress.com/item/1005008904303973.html?spm=a2g0o.productlist.main.19.6ec27565Z9me46&algo_pvid=9d0891ec-64cb-40e6-b1c9-8eaf1bad4b73&algo_exp_id=9d0891ec-64cb-40e6-b1c9-8eaf1bad4b73-18&pdp_ext_f=%7B%22order%22%3A%224%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21CAD%21282.57%21140.58%21%21%211435.83%21714.31%21%402103010e17485282381848563e0af2%2112000047139467597%21sea%21CA%210%21ABX&curPageLogUid=4tYv96l8aQKC&utparam-url=scene%3Asearch%7Cquery_from%3A&_gl=1*1vgtn0c*_gcl_aw*R0NMLjE3NDg0NzYwMjAuQ2p3S0NBanc2TnJCQmhCNkVpd0F2blRfcnJQSlNrcGFNT0daaXFwYXZ2OWk4OFlld2VoSndydVZWS1lkWS1MZnVFdVFtU3U4QlozSlhSb0NCa1lRQXZEX0J3RQ..*_gcl_dc*R0NMLjE3NDg0NzYwMjAuQ2p3S0NBanc2TnJCQmhCNkVpd0F2blRfcnJQSlNrcGFNT0daaXFwYXZ2OWk4OFlld2VoSndydVZWS1lkWS1MZnVFdVFtU3U4QlozSlhSb0NCa1lRQXZEX0J3RQ..*_gcl_au*MTg0OTc4NzM2OC4xNzQ1ODcyNTIy*_ga*NjA5NTExNDExMDMzMTY5LjE3NDQ2ODMwNjkyNzY.*_ga_VED1YSGNC7*czE3NDg1MjgxMTYkbzEzJGcxJHQxNzQ4NTI4MjM5JGo2MCRsMCRoMA..) which is $140 CAD for a 1.5kw, saving me about $30, but is it really worth it?
+
+Now I've done a LOT of research the past couple days just learning about spindles (and how expensive they are) and I'm really tired so I'm just going to end it here.
+
+**Total time: 67 hours**
+
+## Day 22 - Re-considering spindle choices
+
+Optimally, I would really like to have a 2.2kw air cooled spindle, but the thing is, they're just too expensive. If you factor in the extra cost of the VFD, larger mount, collet and whatnot, it just adds up to over $250 CAD. I really don't want to also get something that's low quality, or just get flat out scammed so I'm re-considering some of my spindle choices.
+
+I actually am leaning more towards the 1.5kw air cooled spindle for a couple reasons:
+- It can still cut aluminum and a bit of steel, which were my requirements. I just takes longer to cut and I can't mill like *that much* steel
+- It's definitely cheaper, taking account the smaller cost of the mount and VFD, the cost of a 1.5kw spindle will be way cheaper
+- Weighs less so there's less weight on the gantry and I don't need as strong parts to hold up the gantry and whatnot
+
+But there's just as many downsides compared to the 2.2kw. Honestly having the 2.2kw would be very nice, but because of the fact that it costs nearly $75 more is a bit crazy. Also lots of the brands of these cheaper brands aren't very good quality. Another reason why 2.2kw is kind of not needed is because the actual power of the spindle vs how it's advertised.
+
+Lots of the chinese spindles and stuff can't actually reach their top speed and end up performing just slightly better than a 1.5kw spindle. Another thing is, the larger spindle needs LOTS of current. I'm talking 20 amps of current at 110 volts, which might literally just trip my breaker which could be pretty annoying and take up lots of my time to fix.
+
+So overall the 1.5kw spindle will be more reliable, higher quality, cheaper and will probably be better long term. If I ever wanted to upgrade and use this spindle for a different project I could for just like $200, so it's not a **massive** decision. If I still find a good deal on a more powerful spindle though, I might cope it on marketplace or something, but I'm still learning more towards a 1.5kw spindle after all my research. Maybe I'll also be able to find a nice kit that includes the VFD and whatnot with it too, which would be pretty sweet!
+
+Time to do lots of searching...
+
+Lots of the time spent working on this project is really just part finding, so when I got to build a project like this in the future again, it's going to be 100x easier because I already know a LOT of different parts and stuff.
+
+After a bit of researching I accidentally came across this spindle which is only $112.50 USD for a [2.2kw air cooled spindle](https://bulkman3d.com/product/cnc-spindle-1-5kw-110v-air-cooled-router-spindle-motor/?attribute_power=2.2KW-Air+Cooled+Spindle+with+1pcs+6mm+ER20+Collet&attribute_voltage=110V) from bulkman3d which is a decent brand. I'm going to look into a bit more though because I'm skeptical of the price.
+
+Anyways looking at spindles is a bit boring so I want to take a second look at the gantry. When looking at spindles, I've come across lots of information regarding rigidity of the gantry, and the current state of my gantry seems to have a couple problems.
+- The ball screw is on the top which isn't optimal, because I need to have a second plate that's moving it.
+- I need some extra parts to attach the top ball-screw and to make it more rigid
+- The rails aren't spaced far enough
+- My current price on the 8080 extrusion is too cheap because it's the less rigid version, when I need the more rigid version
+
+Really I want to make it faster to assemble, more rigid and simplified. So after getting some inspiration from this design, I really want to use it instead.
+
+![[Pasted image 20250603071828.png]]
+
+It's 2, 4080's stacked on-top of each other with a gap in-between for the ball-screw. I'm going to then mount the linear rails to the faces and attach the gantry perfectly onto the face of the plate. This design is much more optimal and distributes the load of the z axis more evenly. Another thing I can add later is a plate on the back so that the 4080's act as one and will decrease vibrations and increase rigidity.
+
+I feel like this design will be more rigid and even easier to assemble, and I had concerns about it earlier, but because of the fact that I can upgrade it really easily, makes it definitely worth while to do.
+
+It will be a bit annoying to design though because I've done all of this design work on the current version, but I don't think it will be too complicated. I can kind of move the ball-screw assembly/design just down for that and replace the 8080's with 4080's.
+
+Now after re-orienting everything I have a nice design like this:
+
+![[Pasted image 20250603205313.png]]
+
+A couple things I didn't specifically mention I did were:
+- Rotating the BK/BF support, for the rotated ball-screw
+- Changing which side the BK/BF support are actually facing (forwards with the ball-screw now)
+- Making the side panels wider and moving the ball-screw to be closer to the linear rails.
+
+And just like that, I have a much more reliable and simple design. There's still a couple of problems with it though:
+- It's pretty tall from what you could tell, so I need to make it smaller or increase the height of the gantry
+- The ball-screw and rails aren't flush to each other
+- The BK support still uses spacers which I feel isn't optimal.
+
+But now that I have the general thing down, I kind of want to revisit the side panels. So currently the side panels are made from 10mm thick aluminum and I kind of just made the dimensions to what I wanted. But to buy metal exactly in that shape just costs way more so I want to use stock metal.
+
+This was the perfect use case of ChatGPT for me and it gave me LOTS of good suggestions:
+
+![[Pasted image 20250603205652.png]]
+
+Here's the consensus though:
+- Use 3/8 or 1/2 inch aluminum that's already stocked, I'll probably use 3/8 because 1/2 is 50% more expensive at least (3/8 is 9.53mm which is also very close to what I need)
+- Use a stock bar dimension like "6061 flat bar 8 in × 1 ft" or something close that doesn't really need to be modified
+- Use some supplier tricks to save on costs
+
+So here's the stuff I want to implement based off of this now:
+- Widen the plate to 125mm so I can use a flat bar and not a milled plate
+- Increase the height to 14 inches to fit on the saw nicely
+- Ask the supplier for drop pieces/off cuts
+
+I'll take a look at the bed another time because that's a bit more complicated but let's put these quick changes in!
+
+And just like that, we have our new side panels!
+
+![[Pasted image 20250603210821.png]]
+
+Now check out something neat with our ball-screw now. It's nearly flush with the linear rails:
+
+![[Pasted image 20250603210853.png]]
+
+This gives me the opportunity to just use one plate for the gantry which would be really cost effective and handy.
+
+But I'll save working that out for tomorrow. I got lots of good work today done and tomorrow I have a couple of things I want to maybe work on:
+- Do some more spindle research
+- Work-out getting the ball-screw flush with the rails
+- Maybe doing some research into metal suppliers
+- Start working on the Z-Plate
+
+But anyways, I've been pretty lazy lately so progress have been a bit slow (it's also allergy season so my eyes are really suffering) but still making some steady work on the mill.
+
+**Total time: 69 hours**
