@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "bc1110c3c92b6942",
+    "id": "39a79d66170d2663",
     "type": "split",
     "children": [
       {
-        "id": "e5b92ab982e20189",
+        "id": "ad3442c4207fe2b1",
         "type": "tabs",
         "children": [
           {
-            "id": "6c905ee493f46ebe",
+            "id": "21d72b649becddfb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journal.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "journal"
             }
           }
         ]
@@ -23,15 +27,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b723df94103b6fc7",
+    "id": "1571da647afc7bf4",
     "type": "split",
     "children": [
       {
-        "id": "0164cde7f3ce2f3d",
+        "id": "427e3d54a7d12f71",
         "type": "tabs",
         "children": [
           {
-            "id": "198bbf0f8ba58a3d",
+            "id": "c6881b0d9a9e58c5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1e8370b0ebd21e96",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -48,7 +65,7 @@
             }
           },
           {
-            "id": "88f5e5ca29ae0e12",
+            "id": "b1f8debb797987e9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -56,42 +73,28 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "f018adb01d1b889b",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "1e5d0012b10611ae",
+    "id": "b4b57ff923e68821",
     "type": "split",
     "children": [
       {
-        "id": "83394e40a300eba5",
+        "id": "22136404b3b9c649",
         "type": "tabs",
         "children": [
           {
-            "id": "042253280b85f544",
+            "id": "ecc6254fa19cba8b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNC Machine.md",
+                "file": "journal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CNC Machine"
+              "title": "Backlinks for journal"
             }
           },
           {
-            "id": "93514d04019ce976",
+            "id": "1fddf55c2631705a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNC Machine.md",
+                "file": "journal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CNC Machine"
+              "title": "Outgoing links from journal"
             }
           },
           {
-            "id": "e2039761494bb857",
+            "id": "8d439a7786ce0a55",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,18 +137,18 @@
             }
           },
           {
-            "id": "3b6066e489e19d96",
+            "id": "afcff002a933138c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNC Machine.md",
+                "file": "journal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CNC Machine"
+              "title": "Outline of journal"
             }
           }
         ]
@@ -165,24 +168,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f018adb01d1b889b",
-  "lastOpenFiles": [
-    "Pasted image 20250604170123.png",
-    "Untitled.md",
-    "2025-06-04.md",
-    "Untitled.canvas",
-    "CNC Machine Journal - Started April 27th.md",
-    "Pasted image 20250604070506.png",
-    "Pasted image 20250604070026.png",
-    "Pasted image 20250604065936.png",
-    "Pasted image 20250604065759.png",
-    "Pasted image 20250603210853.png",
-    "Pasted image 20250603210821.png",
-    "Pasted image 20250603205652.png",
-    "Pasted image 20250603205313.png",
-    "Pasted image 20250603071828.png",
-    "CNC Machine Journal - Started April 27th.md~",
-    "CNC Mill Breakdown and Notes.md",
-    "Build Instructions.md"
-  ]
+  "active": "21d72b649becddfb",
+  "lastOpenFiles": []
 }

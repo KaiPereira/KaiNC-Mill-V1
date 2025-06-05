@@ -1106,3 +1106,44 @@ But I'll save working that out for tomorrow. I got lots of good work today done 
 But anyways, I've been pretty lazy lately so progress have been a bit slow (it's also allergy season so my eyes are really suffering) but still making some steady work on the mill.
 
 **Total time: 69 hours**
+
+## Day 23 - Some more gantry work
+
+I had a couple of small things I wanted to just get done with today. So let's just get into it!
+
+First I want to get the ball-screw flush with the rails, this just involves either making the plate wider or moving the ball-screw to the side. I think I'll be fine moving it just a tad. HGH rails withs their carriages are 3cm tall, and then add the 8cm of the extrusion -- the face of the ball-screw needs to be 11cm from the edge.
+
+The ball-screw housing has equal sizing on each side, so if we take the center, we can count from the center outwards and have a references point. You can see from the center out, it's 2cm.
+
+![[Pasted image 20250604065759.png]]
+
+So I drew a little line from where the face of the ball-screw sits:
+
+![[Pasted image 20250604065936.png]]
+
+To make it easier to see that I need to add .5cm to the offset. This makes one of my wholes go off though so now we need to fix that!
+
+![[Pasted image 20250604070026.png]]
+
+AND they're not aligned and quickly I realized that I used the measurements from the HGH20CA rails instead of the 15CA rails which I'm actually using. So I literally just need to take off 2mm.
+
+And now PERFECTLY, the wholes thing line up, the rails and ball-screw are flush and it doesn't seem like the wholes going over the edge of the side panels is going to be a problem anymore!
+
+![[Pasted image 20250604070506.png]]
+
+Now let's go back to researching spindles. I know I want to get a 1.5kw air cooled spindle so I should be able to find some actual suitable options. I think I'm going to look more specifically at spindle kits because they're more cost effective.
+
+After a lot of research I've found this [beautiful kit on Amazon](https://www.amazon.ca/Spindle-Kit%EF%BC%8C1-5KW-24000rpm-Frequency-Changer/dp/B0DWFHQLQD/ref=sr_1_12?crid=19IN2UDXIXZB2&dib=eyJ2IjoiMSJ9.Mda8qF04hBAqtwfkbXHji9D3CaNa5yg7g63hM4e8-rD0aih4F_F-CjUZw-KpGCDewHM4Y5VSdw0LE3WqCTeR28CmsVLFHZbl-uMr-InnKLtvOM3S99gjpV9VxTl0GY_Wvi5LNwVsFeam76DuPFmk03PQvWW8M5kP-7ybo4WKKyXpdfQqunpEZfPUkmQMe2NVBQ0Den5kdpkYHJzEuJV9i3slrB8lOhDDnZo15e5CJdO1ai9fbjmwm7o74KR24a7wBitOzxrYt1wtKQ9lr4L7OIOFE_IgcfoS88h9xIg3pqg.gZN5ISMq-5ka4I5wW1mmk4JocE9STogh2gg4xJM97Zs&dib_tag=se&keywords=1.5kw+air+cooled+spindle+kit&qid=1749061520&s=hi&sprefix=1+5kw+air+cooled+spindle+%2Ctools%2C152&sr=1-12) . I think it's the best price I've found so far, about $160 USD for everything I need with fast and free shipping.
+
+I also found this spindle from Vevor that's probably slightly higher quality but because of the hassle of getting VFD's and collet's, I don't think it's actually going to be easy to use because I don't feel like finding all the extra parts.
+
+So I'm really liking this spindle kit from amazon, maybe I can find a better one on Aliexpress, but I also would prefer buying from China -> Amazon instead of just aliexpress because it's probably a bit more reliable.
+
+Anyways, now that I've found a pretty good spindle, I really want to model it into onshape. I'm going to model this from scratch just so I don't have a very complicated spindle and so I can change it easily.
+
+But as I'm looking at dimensions, I'm still going back and forth between the collet size. I've watched a couple videos though and it *should* be fine. I can mill light to medium aluminum which is pretty good, and at the end of the day, I can replace the spindle to make it stronger if it's performing well.
+
+Anyways, let's get back to the spindle. These are the specifications from the spindle kit. 
+
+![[Pasted image 20250604170123.png]]
+The spindle is an HLTNC spindle, which looks pretty good and I feel like it will be perfect for light aluminum, which I feel like is the current standard for my current design.
