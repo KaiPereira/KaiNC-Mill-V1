@@ -11,10 +11,14 @@
             "id": "21d72b649becddfb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "JOURNAL.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "JOURNAL"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JOURNAL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for JOURNAL"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JOURNAL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from JOURNAL"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "JOURNAL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of JOURNAL"
             }
           }
         ]
@@ -163,6 +170,17 @@
   },
   "active": "21d72b649becddfb",
   "lastOpenFiles": [
+    "Pasted image 20250606173812.png",
+    "Pasted image 20250606172530.png",
+    "Pasted image 20250606165655.png",
+    "Pasted image 20250606165549.png",
+    "Pasted image 20250606070715.png",
+    "Pasted image 20250606070503.png",
+    "Pasted image 20250606070329.png",
+    "Pasted image 20250606070245.png",
+    "Pasted image 20250606070007.png",
+    "Pasted image 20250606065147.png",
+    "Pasted image 20250605071526.png",
     "README.md",
     "journal.md",
     "JOURNAL.md"

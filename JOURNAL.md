@@ -1,8 +1,8 @@
 ---
-title: "Aluminum CNC Mill"
-author: "Kai Pereira"
-description: "Fixed gantry style cnc mill that's designed to mill aluminum and small steel parts!"
-created_at: "2025/04/27"
+title: Aluminum CNC Mill
+author: Kai Pereira
+description: Fixed gantry style CNC mill that's designed to mill aluminum and small steel parts!
+created_at: 2025/04/27
 ---
 
 ## Day 1 - Brainstorming
@@ -1107,7 +1107,7 @@ But anyways, I've been pretty lazy lately so progress have been a bit slow (it's
 
 **Total time: 69 hours**
 
-## Day 23 - Some more gantry work
+## Day 23 - Some more gantry and spindle work
 
 I had a couple of small things I wanted to just get done with today. So let's just get into it!
 
@@ -1146,4 +1146,97 @@ But as I'm looking at dimensions, I'm still going back and forth between the col
 Anyways, let's get back to the spindle. These are the specifications from the spindle kit. 
 
 ![[Pasted image 20250604170123.png]]
-The spindle is an HLTNC spindle, which looks pretty good and I feel like it will be perfect for light aluminum, which I feel like is the current standard for my current design.
+The spindle is an HLTNC spindle, which looks pretty good and I feel like it will be perfect for light aluminum, which I feel like is the standard for my current design.
+
+So using these dimensions I'll create a basic outline.
+
+![[Pasted image 20250605070834.png]]
+
+We really just need a general shape for the spindle to represent it's height relative to the bed so that we can kind of visualize how much Z space we have.
+
+Now I'll extrude this using the dimensions to create an accurate depiction. And a little trick is, because the rest of the components are circular, you can just use their dimensions in 3D too!
+
+Then you can offset some of the circular components by taking their diameter and subtracting it from the height and divide by 2 to find the center.
+
+And BOOM, we now have a spindle:
+
+![[Pasted image 20250605071526.png]]
+
+Now we can make it look a bit prettier by rounding and changing the colors. And now it's perfect. I'll just quickly add a boolean to make it all one part and then it'll be perfect!
+
+![[Pasted image 20250606065147.png]]
+
+I wish I could have like different colors for a boolean, but that requires having this as like a sub-assembly which I don't really need. Except for if I want to get fancy and simulate like an end-mill on this.
+
+Anyways I'll wrap up my designing for today. It was a pretty productive day I'd say and I got most of the stuff I needed to get done today. I'm giving myself a timeline of 7 days to wrap up this design so that I can order all the parts, so just 7 more days of designing, which I feel like is pretty realistic.
+
+Anyways tomorrow, let's get started on the spindle, that means getting a spindle plate, mounting rails to it, all the fun stuff!
+
+**Total time 72 hours**
+
+## Day 24 - Spindle shenanigans
+
+We're kind of on the second last stretch of building a CNC mill, I just have to add the spindle assembly, and then do the finishing touches. Now the spindle is a bit tricky but I have a good idea of how I'm going to do it.
+
+First I'm going to have a plate that's mounted to the rails/ball-screw. This plate will have rails and a NEMA 23 at the top to drive it's ball-screw. Then those rails, will have another plate, of which the spindle will be attached too. Simple enough, I'm just not sure how I'm going to bolt it all together. But anyways I think that's more of a problem once I have the first plate implemented, so let's get started!
+
+First I want to do some calculations so that I get the rails and ball-screw all perfectly attached to the plate. This is just some quick math that I did based off the rail and ball-screw dimensions:
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfekXrHGwFSqqopYDu7YAVnAMyc3P9bV9nh8eM0dH-MXo4ID-jhLSTOWzhdgMc8VQU9gjcRfig0fKMdvyjBK3CAB0gGf42tSpEj4Dv1Pb3eUMTrliuQWziG6cwxCo95BZcHvNlGXw?key=fT4XSf48xS1RgFciDTHXKleY)
+
+I'm not quite sure what size to make the X and Y but honestly, those don't really matter for now, I just need to get the relative dimensions of the holes in.
+
+So now let's design this plate, I'm going to put all of this stuff inside of a spindle folder just for ease of organization, and just like that, we have our plate. There were a couple dimensions that were off for some reason, but with a bit of modification, I got it in.
+
+![[Pasted image 20250606070007.png]]
+
+Now we can just extrude this to form a plate. I'm going to choose 3/8" aluminum, so I'm going to make the width 9.525mm. 
+
+![[Pasted image 20250606070245.png]]
+
+Now I'm not going to really worry about the dimensions for now, I'll just make all the holes and stuff relative to each other so I can dynamically change the width and height.
+
+Now let's put this in our assembly just to see how it fits, and *perfect*!
+
+![[Pasted image 20250606070329.png]]
+
+The ball-screw is at a slight angle, I'm not too sure how to actually fix that, so the holes might be just barely off. I usually just group the ball-screw with the plate instead of fixing it because it breaks my whole assembly when I fasten it to the plate. Probably because it's at an angle, but I'm really not too sure. 
+
+Let's just change the color real quick and **boom**, the spindle assembly, already looks pretty good!
+
+![[Pasted image 20250606070715.png]]
+
+Now I'm going to add some rails to the plate. I chucked a rail onto the plate to just see if I could nicely space a rail between the carriages and it actually works out perfectly!
+
+The holes on the rails are 4.5mm wide and they're spaced out 60mm. I want the rails to be closer to the center of mass too so that the spindle gets less vibrations and has more stability. With this in mind, let's put the holes on.
+
+![[Pasted image 20250606165549.png]]
+
+You can see that they fit literally perfectly! Now we're just going to add the rails onto them. For now, I'm just going to make the rails 250mm long because that's a big bigger than the size of the plate. I also decreased the size of the plate so that there's a bit more rigidity and less wasted space.
+
+And that looks perfect!
+
+![[Pasted image 20250606165655.png]]
+
+Now I just need to create a mounting plate for the spindle so I can put it onto the rails, I'll just make this plate 3/8" again so that there's not too many vibrations. I want all of these components to be tight nit so it's rigid and there's not too many vibrations.
+
+But before I do that, I just remembered that I still need the ball-screw on this axis. So let's focus on that first. Luckily, I'm using an SFU1204 ball-screw for the gantry because it has a higher mechanical advantage and it's also *smaller*. So it should actually fit pretty nicely onto the gantry plate. 
+
+Before I do everything though, I'm going to put some holes onto the gantry plate will the BF/BK support will lay.
+
+The BF support is pretty simple to model, it's just 2 holes so I'll put that at the very bottom of the plate. But a bit of a problem comes up when I put the BF support on, it intersects with the ball-screw. Now this might actually act as a natural stopper so once I add the full ball-screw assembly, I'll take a look at it. It's pretty easy to increase the distance between rails.
+
+![[Pasted image 20250606172530.png]]
+
+But the distance between it and the bottom looks pretty perfect! Now I'm going to model the BK support onto the plate. It's getting very cramped on the gantry plate, so I might need to make it larger.
+
+![[Pasted image 20250606173812.png]]
+
+Now you can tell the BK10 support intersects the carriages on the gantry so I'm going to make the gantry plate much larger. I also want enough space to actually put the stepper on the gantry plate but the stepper can be hanging off the top a little so I don't need to make it *that* much taller.
+
+But anyways it's getting a bit late so I'm just going to end it off here. I did some good work on the spindle but there's definitely quite a few problems with it still.
+
+Tomorrow I feel like I'll be able to finish the ball-screw assembly, and then I'll be able to put on the spindle plate and attach the spindle, and then maybe the spindle will be done. We'll see though!
+
+**Total time: 74 hours**
+
