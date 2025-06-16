@@ -1240,3 +1240,192 @@ Tomorrow I feel like I'll be able to finish the ball-screw assembly, and then I'
 
 **Total time: 74 hours**
 
+## Day 25 - Wrapping up the spindle
+
+Alright today I had a pretty straightforward goal, just be able to wrap up the spindle or maybe get it as far along as possible. So let's get into it!
+
+First I'm going to finish that ball-screw assembly I was working on. I want about 150mm of Z travel, this ensures that I have pretty good rigidity on the gantry, but that I can also mill nicely sized parts. I can also pretty easily adjust this in the future, but I think 150mm is a pretty good starting point. 
+
+Having 150mm of Z travel doesn't mean that the ball-screw is going to be 150mm long, I need to account for the nut and end supports.
+
+Doing some quick math (24mm (nut) + 29mm (BK support) + 20mm (BF support) + 30mm (coupler)) I need the ball-screw to be at least 250mm long. Because I want a bit of room for error, I'm just going to go for a 250mm screw for now. This might be a bit short, but if it's like 145mm of z travel, I'm perfectly fine with it too, it really just increases rigidity which I think is pretty important.
+
+Now that I have the housing and screw on, you can see that I clearly need to widen the spacing between the rails so I'll do that real quick.
+
+![[Pasted image 20250608001556.png]]
+
+Also for some reason, shortening the screw is being a bit finniquy, so that's a 300mm screw in the photo. I've widened the spacing between the rails by 2cm and it's perfect now:
+
+![[Pasted image 20250608001901.png]]
+
+While having the ball-screw in place, I took the change to check out the distance between the face of the carriage and ball-screw and there's quite a bit, so we'll have to figure out how to get the spindle plate on later. I'm thinking same style as the bed and just do a smaller plate on the rails and larger on-top of that.
+
+![[Pasted image 20250608002021.png]]
+
+When I was designing though I found that one of my ball-screws was off for some reason. and in a very weird way too.
+
+![[Pasted image 20250609064712.png]]
+
+It's a pretty quick fix though, I was using the same ball-screw for the gantry and bed but ones 500mm and the other is 480mm, and I made the 480mm longer for some reason.
+
+Now it's sitting properly and we can get back to the spindle.
+
+![[Pasted image 20250609070322.png]]
+
+I also really want to design my own ball-screws now because I'm not too sure what the exact dimensions of the ball-screw machined ends are which are pretty important for aligning in the support properly.
+
+So let's get to designing some custom ball-screws. Honestly, I can just represent the ball-screw as different diameter screws. First I researched how big the machined ends of the ball-screws are and found that there's a pretty common standard.
+
+![[Pasted image 20250610174541.png]]
+
+I'll keep the nut because it's a very accurate model but I'll just design new screws. They were really easy to design and then I just put a helix on in case in the future I wanted to make them actual screws.
+
+![[Pasted image 20250610174647.png]]
+
+I then did this for the SFU1204 which had slightly different dimensions.
+
+![[Pasted image 20250610174747.png]]
+
+Now I have to do the slightly monotonous job of putting this into the assembly because everything is broken now. But anyways a bit later, the assembly is perfect.
+
+![[Pasted image 20250610174910.png]]
+
+Now I can verify that all my ball-screws perfectly align with the supports.
+
+![[Pasted image 20250610174952.png]]
+
+A couple of them happened to be a bit off, so I ended up modifying them a bit and now everything looks pretty to scale.
+
+Anyways, it's time to work on the spindle ball-screw setup now, I need to increase the length of the plate so that I can attach the stepper motor easily.
+
+![[Pasted image 20250610175331.png]]
+
+Now there's a couple of ways I can attach this stepper motor:
+- Some aluminum plates screws in to the plate and then upwards connecting the motor
+- An actual motor mount
+- 3D printer mount
+
+I asked the PrintNC discord, and it turns out, the motor mounts can actually be 3D printed! They don't need to be as strong as the rest of the stuff, because it's mostly the supports taking the forces, and the stepper is really just turning, so the plate doesn't need to be crazy strong. So I decided on going with a 3D printer mount for the plate. I also really like this way of making mounts so I'm probably going to modify the bed mount to use a 3d printed mount too, because it's using aluminum right now and I feel like it's not the best option.
+
+I'm going to be basing the design of this mount based off of [Tom Stanton's design](https://youtu.be/ZTo8VAK_GDk?t=30). The PrintNC guys said I should print in ABS or PETG and I think I could easily get my friend to 3D print me the mount in PETG. Anyways, let's design the mount.
+
+I'm going to just use the dimensions of the NEMA23 mount I already designed and then just add the supports and such.
+
+![[Pasted image 20250610174513.png]]
+
+Anyways I'll just extrude that and see how it is. The cool thing about having everything very accurately designed, is that I can test stuff out and see how it is. Clearly it's not long enough so I can just make it longer, and then I'll add some fillets and such.
+
+![[Pasted image 20250610180517.png]]
+
+Anyways, while I was designing this, I got a message from the people at PrintNC who showed me this absolutely ingenious way of connecting the stepper.
+
+![[Pasted image 20250610181052.png]]
+
+Thanks Logan! So I'm definitely switching to this because it looks really rigid and well thought out! 
+
+Anyways, I'm going to save this for tomorrow though as I've already spent quite a bit of time working on these things. Tomorrow I want to finish the stepper motor mount and get the spindle on!
+
+**Total time: 77 hours**
+
+## Day 26 - Actually wrapping up the spindle
+
+Anyways I want to design something like this to act as a motor mount on my spindle assembly.
+
+![[Pasted image 20250611071559.png]]
+
+This will keep the stepper rigidly attached and I can print it in ABS or PETG. Now I've already designed a mount but it's way less rigid from this one.
+
+![[Pasted image 20250611071741.png]]
+
+The good thing about what I currently have, is that it's one of the faces of this new mount so I can still keep it. I just have to model the BK support and the other faces.
+
+Now one of the things is that the stepper actually goes underneath the top face of the plate, so I need a little divot that will attach to that and maybe go into the plate too. So let's get designing!
+
+First I'll make that little piece that connects to the BK support. I've spent a lot of time working on this piece and after maybe like an hour I'm here:
+
+![[Pasted image 20250611210251.png]]
+
+I keep on messing up the measurements and such so I keep on having to re-iterate. It still needs lot of work though but it's definitely coming along!
+
+Anyways after a little bit I wrapped it up, looks pretty good!
+
+![[Pasted image 20250615125439.png]]
+
+I'll just end today off here and then tomorrow I'll work on the next motor mount!
+
+**Total time: 79 hours**
+
+## Day 27 - Another motor mount
+
+Today I wanted to build a second motor mount for the stepper on the X axis. Currently it just uses aluminum blocks to attach it on which I don't feel like is going to be too simple.
+
+I honestly don't really want to describe the whole build process because it took quite a bit of time, but there wasn't actually much interesting.
+
+I just took the datasheets of the BK12 support and used the Z axis mount design to model this new one. The only different with this one is that I wanted to actually strengthen the support a bit more, so I bolted it to the extrusions vertical face to really make it strong.
+
+This took about an hour and half but it looks pretty good!
+
+![[Pasted image 20250615125749.png]]
+
+Now our mills is looking pretty good with the new mounts, I actually don't really see any parts that are looking a bit out of place and are hard to assemble.
+
+I really want this mill to be easily assemblable and simple so I don't want like some weird bits of like aluminum bolted together to create a stepper mount.
+
+But anyways here's a photo of the current mill:
+
+![[Pasted image 20250615125907.png]]
+
+On a side note, I applied to this program called Bagel Fund and they give grants to cool projects like mine. It's a really cool concept and they give $100 to $500 micro-grants which are really impactful for projects like mine. So I need to book a call and hopefully I'll maybe get a $400 grant or something like that :D
+
+Check it out: https://bagel.fund/
+
+Anyways I also quickly fixed a problem in the assembly where the coupling wasn't turning when the spindle assembly was moving back and forth, I just fixed the coupling to the ball-screw instead of just having a revolutionary mate on the stepper!
+
+Now I have a couple of options for what I can work on next:
+- Fix the bed, because currently it's just randomly sized pieces of aluminum, I can definitely use like stock material and such instead
+- Work on the spindle some more, getting the plate on there and maybe attaching the actual spindle
+
+And really I think those are the 2 main things I currently need to work on.
+
+I'm going to work on the spindle plate though, just because it gets a lot of progress forward and then I can attach the actual spindle on.
+
+Anyways I really want to just have like one plate on the spindle assembly but I'm not too sure how I would make the indent into the plate so that the ball-screw could fit on.
+
+Now there's a couple of options I could opt for, for the bed, I just sandwiched some other aluminum plates on it because it was quite the gap, but for this I can do some other things:
+- Thick spindle plate that is machined to fit the ball-screw housing
+- Machine to plate they're currently on to indent it into the plate
+- Again doing it sandwich style and just putting the aluminum standoffs basically
+
+Anyways before I even think about that, let's figure out the exact distance between the rails and ball-screw housing. If you ever find yourself doing something like this, just do it in [excalidraw](https://excalidraw.com/) on on paper, it's so helpful (EXCALIDRAW IS SOOO GOOD).
+
+![[Pasted image 20250615131943.png]]
+
+AND I JUST DISCOVERED THERE'S EXCALIDRAW FOR OBSIDIAN WHICH I'M USING. My mind is absolutely blown!!!
+
+Anyways, doing some quick math we can find that it's exactly 9mm between the 2:
+
+![[Pasted image 20250615134108.png]]
+
+Quick verification too, you don't really need to do this because you're going to model a part with the same dimensions either way, but I did it to demonstrate.
+
+![[Pasted image 20250615134151.png]]
+
+Anyways, because the gap is 9mm, I can get away with using a stock piece of 3/8", which is 0.953 cm, so I will just have 0.53 mm of space between the ball-screw and the plate, which should be pretty much negligible, although I should probably so a bit more research into this. 
+
+A mistake I made with the bed wasn't giving some leeway with the metal attached to the rails so there's a lot of wasted material, I'll fix this later, but I don't want the spindle to have this. Everything should be as close as possible to reduce vibrations and increase rigidity. 
+
+It's pretty simple to design the plate, it's just going to be double the height of the carriage and the same width with holes, so let's design it!
+
+![[Pasted image 20250615195405.png]]
+
+So we take this, just use the height and width, and boom:
+
+![[Pasted image 20250615200215.png]]
+
+Now we have some exact plates, and I designed them in a way where I can easily make them bigger and smaller depending on when I need them.
+
+Anyways those mounts took a lot of time and I managed to get some work on the spindle. It's june 15th, so I'm already 4 days behind, but that's because of a lot of procrastination. 
+
+Tomorrow, I know I can finish the spindle, and fix the bed, and then I can put the finishing touches on the mill!
+
+**Total time: 81 hours**

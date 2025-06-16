@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "JOURNAL"
             }
+          },
+          {
+            "id": "8c166e735aa8d162",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JOURNAL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JOURNAL"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,24 +180,29 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "21d72b649becddfb",
+  "active": "8c166e735aa8d162",
   "lastOpenFiles": [
-    "Pasted image 20250606173812.png",
-    "Pasted image 20250606172530.png",
-    "Pasted image 20250606165655.png",
-    "Pasted image 20250606165549.png",
-    "Pasted image 20250606070715.png",
-    "Pasted image 20250606070503.png",
-    "Pasted image 20250606070329.png",
-    "Pasted image 20250606070245.png",
-    "Pasted image 20250606070007.png",
-    "Pasted image 20250606065147.png",
-    "Pasted image 20250605071526.png",
+    "Pasted image 20250615200215.png",
+    "Pasted image 20250615195405.png",
+    "Pasted image 20250615134151.png",
+    "Pasted image 20250615134139.png",
+    "Pasted image 20250615134108.png",
+    "CNC Mill Breakdown and Notes.md",
+    "Excalidraw/Drawing 2025-06-15 13.22.39.excalidraw.md",
+    "Build Instructions.md",
+    "JOURNAL.md",
+    "Excalidraw",
+    "Pasted image 20250615131943.png",
+    "Pasted image 20250615125907.png",
+    "Pasted image 20250615125749.png",
+    "Pasted image 20250615125439.png",
+    "Pasted image 20250611210251.png",
+    "Pasted image 20250611071741.png",
     "README.md",
-    "journal.md",
-    "JOURNAL.md"
+    "journal.md"
   ]
 }
