@@ -47,7 +47,7 @@ Something I did decide on though was a **fixed gantry style CNC mill**. I made t
 
 Using all this information I created my first drawing. Drawings REALLY helped define what I was building and were probably one of the most important aspects of building such a crazy machine. **This is a basic drawing I did in Krita:**
 
-![Pasted image 20250503114651.png](Pasted%20image%2020250503114651.png)
+![Pasted image 20250503114651.png](journal/Pasted%20image%2020250503114651.png)
 
 You can see that the frame is purely made out of aluminum extrusions and bolts which make the frame pretty cheap and easy to assembly because I can just order the extrusions to size and with the specs I want.
 
@@ -60,7 +60,7 @@ The big thing I wanted to do on day 3 was to get my thoughts down and actually t
 I knew I wanted to create the frame out of aluminum extrusions but I still wasn't sure what type of aluminum extrusions to use. This is where Tom Stanton came in clutch. His series on [building a CNC mill/router](https://www.youtube.com/watch?v=t7yjEYOrYFo&list=PL04nKdxcTrP1Q1D6-LQL-cWMClAlg0pY2) was a massive help to me, because he showed the full general process of building exactly what I wanted to do.
 
 I noticed that Tom Stanton used extrusions that had 2 slots in them like this.
-![Pasted image 20250503115326.png](Pasted%20image%2020250503115326.png)
+![Pasted image 20250503115326.png](journal/Pasted%20image%2020250503115326.png)
 This gives lots of space to add rails and connect segments, while maintaining a very high level of rigidity. I still didn't know where to order them from though, so a quick google search later and I come across **Misumi**. I couldn't believe that I could get 4040 extrusions that were 400mm long for just **10 USD** and I could fully customize them!!! 
 
 At this point, I'm pretty sure these are the extrusions I'm going to go with, but I still want to keep the price cheaper so if I somehow come across something cheaper and as high quality I might go with that.
@@ -71,7 +71,7 @@ I'm not used to creating huge assemblies like this in onshape, more designing pa
 
 For the end of this day, I finally got something into my CAD workspace and it's so cool to actually get something on paper though after 10's of hours of brainstorming. 
 
-![Pasted image 20250503120536.png](Pasted%20image%2020250503120536.png)
+![Pasted image 20250503120536.png](journal/Pasted%20image%2020250503120536.png)
 
 Just 2 simple aluminum extrusions but it's really exciting to see something actually on paper.
 
@@ -85,16 +85,16 @@ The first thing I wanted to get down was some of the base frame calculations. I 
 
 I also knew that the spindle couldn't reach the farthest side of the plate because it's a big chonkier so I needed to have a little bit of space on the sides. I decided that about 5 - 10cm would suffice.
 
-![Pasted image 20250503190010.png](Pasted%20image%2020250503190010.png)
+![Pasted image 20250503190010.png](journal/Pasted%20image%2020250503190010.png)
 
 With this in mind, I started to design the base of the frame. I decided that 500mm extrusions for the sides and 400mm extrusions for the supports would work nicely and give me enough space.
 
 But while putting together the extrusions, I noticed that putting the center extrusions flush with the side of the plates reduced the rigidity because there was less space in the center which was where a lot of the weight was, so I decided that fixed the inner extrusions more towards the center would increase rigidity.
 
-![Pasted image 20250503190111.png](Pasted%20image%2020250503190111.png)
+![Pasted image 20250503190111.png](journal/Pasted%20image%2020250503190111.png)
 Now I modeled everything into Onshape using these revisions and calculations, and created a basic base frame.
 
-![Pasted image 20250503190202.png](Pasted%20image%2020250503190202.png)
+![Pasted image 20250503190202.png](journal/Pasted%20image%2020250503190202.png)
 
 This base will be rigid yet compact and leaves enough space for spindle to hit everywhere on the plate. I still feel like I need to center the extrusions a bit more, but I'll see when I put the plate actually in the CAD design. 
 
@@ -117,13 +117,13 @@ This process is a bit complicated to understand at first, but it's fairly simple
 
 So I added the holes on the mounting extrusion and this is where some things started to go downhill.
 
-![Pasted image 20250504203611.png](Pasted%20image%2020250504203611.png)
+![Pasted image 20250504203611.png](journal/Pasted%20image%2020250504203611.png)
 
 I've realized that I want to make the machine mill 40cm x 40cm but my extrusions are only 4cm. I thought 4cm was a decent amount but I took a quick look at a measuring tape and realized it was pretty tiny.
 
 I also realized I completely messed up my frame calculations, just how big the mounting extrusion is going to be and how much extra space I'm going to have on the sides. So this means tomorrow I'm going to have to spend a lot of time doing re-calculations and more research.
 
-![Pasted image 20250504204156.png](Pasted%20image%2020250504204156.png)
+![Pasted image 20250504204156.png](journal/Pasted%20image%2020250504204156.png)
 
 I really want to be able to mill aluminum, so that means the design needs to be RIGID, but I also want to be able to mill 40cm x 40cm, so I feel like I either have to make the working area of the CNC mill to be smaller, or make the extrusions bigger.
 
@@ -132,11 +132,11 @@ I still want this to be very budget friendly though, and making the extrusions b
 I could use 4080 extrusions, or maybe use like mounting brackets to make it stronger, but I'm not too sure.
 
 Now time to make some more revisions. First off, I redid the calculations (this is probably my favorite drawing so far):
-![Pasted image 20250504205838.png](Pasted%20image%2020250504205838.png)
+![Pasted image 20250504205838.png](journal/Pasted%20image%2020250504205838.png)
 I now have an accurate frame with 5mm of error on each side, and keeping maximum rigidity in the center of it (which is the second revision of the drawing)
 
 Now time to put update my CAD design! I keep on messing up my calculations because my drawings are from the edges of the extrusions instead of the middle of the holes, but after a couple tries I got it down. much more rigid now!
-![Pasted image 20250504211226.png](Pasted%20image%2020250504211226.png)
+![Pasted image 20250504211226.png](journal/Pasted%20image%2020250504211226.png)
 
 Now I still might actually put them closer together, but I'll take a look at it once the rails are actually on it. For now, I want to research if I need larger extrusions and I want to get the T-Nuts and bolts into the design.
 
@@ -155,7 +155,7 @@ T-Nuts come in tons of different forms:
 
 Here, you can be apart of the pain it is to find out what nut I need to use for this project:
 
-![Pasted image 20250506073552.png](Pasted%20image%2020250506073552.png)
+![Pasted image 20250506073552.png](journal/Pasted%20image%2020250506073552.png)
 
 I'm not an engineer so I had NO CLUE what to use, but T-Slot is the move!
 
@@ -207,7 +207,7 @@ There are 4 different types of HG rails though, if you want to read about them, 
 - **HGH** are carriages **without flanges**, taller than HGW.
 - **HGL** are carriages **without flanges**, as tall as HGW.
 
-![Pasted image 20250506211017.png](Pasted%20image%2020250506211017.png)
+![Pasted image 20250506211017.png](journal/Pasted%20image%2020250506211017.png)
 
 *HGW vs HGH carriage*
 
@@ -219,7 +219,7 @@ Now let's go back to talking about rigidity. I was browsing around in the [Print
 
 I also really want to consider using a mix of larger and smaller extrusions in weaker and stronger spots. This is a really cool DIY CNC mill design I found in the PrintNC discord (I forgot who it was from though).
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeUsATReBbQGrH6pCXiCaGNrX0VAgS8kHitkhg_dPPRu91cT3YxJlC8oo8_LxWufcySvzPs2zTax6susLEMOqd6_l7V2FfYFMNtrVNu5DafU6yQGuZGBWSUwwCQ704yVBqqirh_HA?key=fT4XSf48xS1RgFciDTHXKleY)
+![](journal/https://lh7-rt.googleusercontent.com/docsz/AD_4nXeUsATReBbQGrH6pCXiCaGNrX0VAgS8kHitkhg_dPPRu91cT3YxJlC8oo8_LxWufcySvzPs2zTax6susLEMOqd6_l7V2FfYFMNtrVNu5DafU6yQGuZGBWSUwwCQ704yVBqqirh_HA?key=fT4XSf48xS1RgFciDTHXKleY)
 
 The things I really like about this are they use larger extrusion on the sides and smaller extrusions for the rails which is very cool. They also use a steel frame around the whole thing, which I could imagine is EXTREMELY strong and combined with the steel side-panels, it could probably mill steel. But honestly, I could always consider building a CNC mill with only extrusion and then consider upgrading it with steel parts once it's finished.
 
@@ -239,34 +239,34 @@ I decided to go with HGH rails because they have the highest price to rigidity r
 
 I'm really bad at CAD so it took a bit too long, but I got the rails into my design. I couldn't directly fasten into the extrusion slot because it was all at an angle, so I mounted the rails to the face and then offset them to be the center of the rails on the extrusion from looking at the specs on misumi for the 4040 extrusion.
 
-![Pasted image 20250507205807.png](Pasted%20image%2020250507205807.png)
+![Pasted image 20250507205807.png](journal/Pasted%20image%2020250507205807.png)
 
-![Pasted image 20250507205851.png](Pasted%20image%2020250507205851.png)
+![Pasted image 20250507205851.png](journal/Pasted%20image%2020250507205851.png)
 You can see that I chose to mount them to the inner rail of the extrusion, this is because I want to evenly spread out the weight along the plate to give maximum rigidity. I still feel like the rails could be even closer to the center, but instead, I might actually just increase the size of the bed to offset the inner weight.
 
 I found the CAD design for the rails directly on Limo (which I'll probably end up using to buy the rails), and this included the rails and the carriages.
 
 Because the CAD design included both the rail and carriage, I had to import them separately into the assembly from my document (they came as 2 separate different parts in my part studio).
 
-![Pasted image 20250507210159.png](Pasted%20image%2020250507210159.png)
+![Pasted image 20250507210159.png](journal/Pasted%20image%2020250507210159.png)
 
 I then added them to the assembly by using a combination of planar mates to be able to move them along the Y, a fastened mate with an offset, to put the perfect distance between them, and then I grouped all 4 rails after offsetting them so they slide together.
 
-![Pasted image 20250507210343.png](Pasted%20image%2020250507210343.png)
+![Pasted image 20250507210343.png](journal/Pasted%20image%2020250507210343.png)
 
 I did some really annoying math using the carriage and the dimensions of the baseplate to properly align them.
 
-![Pasted image 20250507210437.png](Pasted%20image%2020250507210437.png)
+![Pasted image 20250507210437.png](journal/Pasted%20image%2020250507210437.png)
 
 Next I added the bed into the CAD design. I'm heavily considering switching to a 30x30cm work area for rigidity which I know wasn't my initial goal but I feel like it's for the best. It gives nearly 2x the rigidity and will have a way higher likelihood of milling aluminum at a good rate. I might be able to sneak in a couple cm too along the X or something but I'll see.
 
 Because I'm really considering making it smaller, I designed the baseplate off 30x30cm dimensions. I did all the annoying math and put the screw holes so there's enough clearance for them to fasten to the rails. I also put a chamfer on the top of the holes for the screw head.
 
-![Pasted image 20250507210757.png](Pasted%20image%2020250507210757.png)
+![Pasted image 20250507210757.png](journal/Pasted%20image%2020250507210757.png)
 
 Then I simply mounted it using another hole for reference using a fastened mate and now we have a fixed gantry.
 
-![Pasted image 20250507210841.png](Pasted%20image%2020250507210841.png)
+![Pasted image 20250507210841.png](journal/Pasted%20image%2020250507210841.png)
 
 **While this all looks pretty good, there's LOTS OF PROBLEMS, here's a couple:**
 - Enough clearance for the screws and the proper space for a clean chamfer.
@@ -275,7 +275,7 @@ Then I simply mounted it using another hole for reference using a fastened mate 
 - Proper bed thickness and dimensions for maximum rigidity and screw depth
 - Proper frame dimensions to accompany the new bed size of 30x30cm
 
-![Pasted image 20250507211033.png](Pasted%20image%2020250507211033.png)
+![Pasted image 20250507211033.png](journal/Pasted%20image%2020250507211033.png)
 
 (weirdly aligned screws)
 
@@ -306,7 +306,7 @@ Because the center of gravity was a bit wack on the bed now, I decided to increa
 
 Fixing the screw holes was pretty easy (but a bit annoying). I re-calculated the whole positions (with the new carriage placements too) and it seems work well. There still seems to be a tiny offset though which is a bit bizarre, I think it might be because of mistakes with the model, but I might revisit it, if I deem it a problem later on.
 
-![Pasted image 20250508203738.png](Pasted%20image%2020250508203738.png)
+![Pasted image 20250508203738.png](journal/Pasted%20image%2020250508203738.png)
 
 *Straight on view of the weird holes*
 
@@ -329,7 +329,7 @@ I'm still debating what to do, and I need to look more at the pro's and con's of
 
 The problem with working with aluminum and steel though is I'll probably need to drill custom holes, and have a custom sheet cut to what I need it to be probably like so:
 
-![Pasted image 20250508205736.png](Pasted%20image%2020250508205736.png)
+![Pasted image 20250508205736.png](journal/Pasted%20image%2020250508205736.png)
 
 But this gives an insane level of rigidity, and I could definitely mount another slab on-top for the X axis. Tomorrow I'll look into more options for this, and I also want to take a look at BALL-SCREWS!!! I didn't get too much time to work on but I still got a solid amount done!
 
@@ -343,11 +343,11 @@ I feel like this is honestly a necessity, because to be able to mount the side-p
 
 The 4040's I'm probably going to use for the center, will also be a different style from the ones I used before. Instead of having 2 rails, they'll just have 1, they look like this:
 
-![Pasted image 20250510205535.png](Pasted%20image%2020250510205535.png)
+![Pasted image 20250510205535.png](journal/Pasted%20image%2020250510205535.png)
 
 **Instead of** 
 
-![Pasted image 20250510205544.png](Pasted%20image%2020250510205544.png)
+![Pasted image 20250510205544.png](journal/Pasted%20image%2020250510205544.png)
 
 These 4040's are a tad bit more expensive, but they're way more compatible with the 4080's than the 2 rail ones and are a bit more rigid.
 
@@ -355,7 +355,7 @@ Now I have to actually rebuild the frame in my design.
 
 First off I got the basics of the frame down. The outside is 4080's and the 2 inner beams are 4040 (which I'll maybe turn into 4080's).
 
-![Pasted image 20250510224517.png](Pasted%20image%2020250510224517.png)
+![Pasted image 20250510224517.png](journal/Pasted%20image%2020250510224517.png)
 
 ~~The beams are going to be attached by 4 T-Nuts on each beam and maybe some other supports on it too.~~
 
@@ -370,7 +370,7 @@ I'll have to look into this a bit more, but for now I wanted to fix my CAD drawi
 
 It wasn't too complicated to change (though it probably took me too long because I kinda spent too long fixing really minor mistakes I was making), but I finally got it done, and it was looking RIGID. I feel like this is the perfect price/rigidity ratio, and I Feel like it will work perfectly, especially with the strong linear rails!
 
-![Pasted image 20250511211941.png](Pasted%20image%2020250511211941.png)
+![Pasted image 20250511211941.png](journal/Pasted%20image%2020250511211941.png)
 
 I'm planning on probably doing aluminum plate, maybe like 10 - 12mm thick, for the side panels, because they need to be one of the most rigid parts of the machine and I feel like plate is probably the cheapest way to get that.
 
@@ -388,7 +388,7 @@ I found this really cool build guide that shows all the steps in building an [Av
 
 Personally I feel like I'm going to go with a mix of T-Nuts, internal connects and external brackets and now I'm also looking at anchor fasteners.
 
-![Pasted image 20250512065201.png](Pasted%20image%2020250512065201.png)
+![Pasted image 20250512065201.png](journal/Pasted%20image%2020250512065201.png)
 
 *Anchor fasteners* 
 
@@ -396,7 +396,7 @@ I found [this tutorial](https://toolguyd.com/hardware-for-connecting-t-slot-alum
 
 There weren't many resources on side panel dimensions so I kind of winged it, but I knew it had to be rigid, and that the Z height couldn't be too large or it would decrease rigidity and maybe move a bit. So I did a bit of calculations and decided I wanted a clearance of at least 10cm, so I kind of just arbitrarily set the Z height to be 250mm. This gave me 13cm of clearance and I think it's going to work. I feel like it's probably not hard to make it taller or shorter if I need, but this gives me a good amount of space while keeping rigidity in mind. I also just made the side panels 12mm thick, and 15mm wide, I'm honestly not too sure how big to make them, but it's easily changeable.
 
-![Pasted image 20250512184520.png](Pasted%20image%2020250512184520.png)
+![Pasted image 20250512184520.png](journal/Pasted%20image%2020250512184520.png)
 
 Next I wanted to work on something a bit new, the X axis. The X axis is going to be between the 2 side panels and needs to be long enough to clear the work area while maintaining rigidity. There's tons of different ways of attaching the X axis on:
 - Bolting extrusions to the side panels, and then mounting rails onto those
@@ -435,13 +435,13 @@ When I added the 8080 extrusion on though, I noticed that I didn't account for t
 
 Now the mill is looking pretty rigid, and I feel like this is the perfect size I need, and the panels just by change, makes it look like the spindle can be perfectly center on the work area with a bit of extra clearance for the rails and ballscrews:
 
-![Pasted image 20250513201441.png](Pasted%20image%2020250513201441.png)
+![Pasted image 20250513201441.png](journal/Pasted%20image%2020250513201441.png)
 
 Now I wanted to put the rails onto the gantry bridge just to see how much space I'm working with here, and because that was my original idea for mounting the rails onto it.
 
 But when I added them in, I noticed that it doesn't seem like there's enough space for the Z axis mounting plate to be put on, and I feel like this is probably a rigidity issue.
 
-![Pasted image 20250513201601.png](Pasted%20image%2020250513201601.png)
+![Pasted image 20250513201601.png](journal/Pasted%20image%2020250513201601.png)
 
 I've decided at this point that's it's probably a good idea to get my ball-screws into the design, because it's actually going to impact a lot of my decision making. I know I can't fit the ball-screw in between the rails here, like I'm planning on doing with the bed, so I need to come up with a different way of putting the ball-screws or rails on. My 3 ideas are:
 - Mounting the rails on the top and bottom of the extrusion and then passing the ball-screw though the center, I'm worried about concerns of efficiency though when gravity starts pulling the z axis down onto the bottom rail
@@ -505,7 +505,7 @@ All of these are next to essential (I think there's some cases where you don't n
 
 After doing a bit of research, I've found out that a combination of **floating and fixed** end supports are the only really viable option. Now I thought that these supports would maybe just cost like $4 a pop or something, but NOPE, they're like $22 for each set.
 
-![Pasted image 20250514073947.png](Pasted%20image%2020250514073947.png)
+![Pasted image 20250514073947.png](journal/Pasted%20image%2020250514073947.png)
 
 I'm definitely considering finding a better supplier of them, but I actually might be eligible for the free freight if I include these too, maybe I could also get free freight + a coupon code.
 
@@ -517,14 +517,14 @@ It really annoys me that these are so expensive, and it just makes me think, tha
 
 From looking at the LIMO bearings site a bit more, I've found that they actually have all the parts I need for the ball screws, but they're SOOO EXPENSIVE, which is definitely making me wanna find a different supplier for my ball-screws.
 
-![Pasted image 20250514075757.png](Pasted%20image%2020250514075757.png)
+![Pasted image 20250514075757.png](journal/Pasted%20image%2020250514075757.png)
 
 
 It would cost me nearly $75 per ball-screws, which is a bit too much, I'd prefer if all the ball-screw came out to $150, which I think should be definitely possible. It's just really annoying the LIMO doesn't have like a set that's maybe cheaper than all of these separate parts combined!
 
 After doing a bit more research, with a lot of deep diving, I think I could find some good stuff on aliexpress for a bit cheaper, but with the no shipping fee's on my order, it might be a better idea to get from LIMO. All the parts from LIMO come out to around $320, which I feel like is a bit too expensive.
 
-![Pasted image 20250514155216.png](Pasted%20image%2020250514155216.png)
+![Pasted image 20250514155216.png](journal/Pasted%20image%2020250514155216.png)
 
 I also need stepper motor mounts, but I feel like I'll be able to get these for free or so (somehow, someway I don't really know) so I'm not going to include these quite yet.
 
@@ -537,7 +537,7 @@ Now I need to kind of figure out what size shaft couplings to get. Shaft couplin
 - Flexible couplings - Can accommodate small inconsistencies/misalignment's and absorbs shocks and vibrations better
 
 *This is a flexible coupling by the way:*
-![Pasted image 20250514163019.png](Pasted%20image%2020250514163019.png)
+![Pasted image 20250514163019.png](journal/Pasted%20image%2020250514163019.png)
 
 And then there's lots of different sizes and a couple more types which I'm not going to go into detail about because they're all very complicated to describe, just check out [Linquip](https://www.linquip.com/blog/types-of-flexible-coupling/). I'm going to go with flexible/jaw style couplings because there's going to be lots of action and a bit of tolerance on my mill and they'll help absorb some vibrations.
 
@@ -547,7 +547,7 @@ I honestly might just order the flexible couplings from amazon because I have li
 
 Now I need to figure out what screw nut housing to use. Base off the LIMO bearing sizing chart, I think I can just go with the *ID 28mm*. There's also steel and aluminum ones, personally I'm just going to get the aluminum ones because while they're less rigid, my whole mill is made out of aluminum so it should balance nicely, and it saves me like $30 and it's easy to switch them out if I make a mistake!
 
-![Pasted image 20250514163236.png](Pasted%20image%2020250514163236.png)
+![Pasted image 20250514163236.png](journal/Pasted%20image%2020250514163236.png)
 
 *Some screw nut housings*
 
@@ -558,7 +558,7 @@ But anyways, I know exactly what type of ball-screws I want, so time to model th
 - Aluminum DSG1610 housings
 - Stepper motor bracket mount - I'll think about this more because I'm not too sure about these yet
 
-![Pasted image 20250514163004.png](Pasted%20image%2020250514163004.png)
+![Pasted image 20250514163004.png](journal/Pasted%20image%2020250514163004.png)
 
 AND WOW, THAT'S A LOT OF INFORMATION, for me too guys, don't worry 😭 . And just like that the day went by without me even working on the CAD.
 
@@ -572,16 +572,16 @@ I pretty much have the ball screws dialed down, it would be nice to bring down t
 
 First of all I grabbed the CAD files for the ball screw off of LIMO bearings and then imported them into Onshape pretty easily. But the thing is, they give you the whole model, not the drawing or anything, so I'm having trouble making them bigger.
 
-![Pasted image 20250515065329.png](Pasted%20image%2020250515065329.png)
+![Pasted image 20250515065329.png](journal/Pasted%20image%2020250515065329.png)
 
 Using the mirror tool I can kind of get someone that looks nice at first glance, but I can't really do specific sizes. Time to consult the internet :(
 
-![Pasted image 20250515065654.png](Pasted%20image%2020250515065654.png)
+![Pasted image 20250515065654.png](journal/Pasted%20image%2020250515065654.png)
 
 
 Using transform actually gives me pretty nice results, I can line up the bearings and can pretty much control the size with some annoying math (but there's probably another way honestly). If I don't find a better way, this kind of works!
 
-![Pasted image 20250515065949.png](Pasted%20image%2020250515065949.png)
+![Pasted image 20250515065949.png](journal/Pasted%20image%2020250515065949.png)
 
 Now using some janky transformations, I have the different length ballscrews I need. I haven't quite started on the Z axis, but I know I need a 400mm ballscrew and a 500mm ballscrew (not exactly those but close enough until I make edits).
 
@@ -601,20 +601,20 @@ The hardest part to model way the stepper motors, because I got them from Facebo
 
 So I searched up "NEMA 23 models" and then looked on grabcad for one with similar specs (because I couldn't find an exact model for this motor) and I came across [this one](https://grabcad.com/library/stepper-motor-nema-23-57bygh201-1). It had nearly the exact specs except the shaft diameter which is 8mm on my motors, but I'm not too sure if this matters because the design doesn't need to be exact, just the parts (I feel like I'm going to regret this later).
 
-![Pasted image 20250516234252.png](Pasted%20image%2020250516234252.png)
+![Pasted image 20250516234252.png](journal/Pasted%20image%2020250516234252.png)
 
 *Looks pretty accurate*
 
-![Pasted image 20250516234503.png](Pasted%20image%2020250516234503.png)
+![Pasted image 20250516234503.png](journal/Pasted%20image%2020250516234503.png)
 
 *Not too sure if this is the exact specs of the aluminum one (this is the steel one)*
 
-![Pasted image 20250516234543.png](Pasted%20image%2020250516234543.png)
+![Pasted image 20250516234543.png](journal/Pasted%20image%2020250516234543.png)
 
 *Looks good*
 
-![Pasted image 20250516234616.png](Pasted%20image%2020250516234616.png)
-![Pasted image 20250516234633.png](Pasted%20image%2020250516234633.png)
+![Pasted image 20250516234616.png](journal/Pasted%20image%2020250516234616.png)
+![Pasted image 20250516234633.png](journal/Pasted%20image%2020250516234633.png)
 
 *Couplings look good*
 
@@ -642,14 +642,14 @@ I had everything in the design except for the shaft coupling because it was stil
 
 Remember how I was talking about how the stepper motor mount brackets were really expensive and that I couldn't add them in because of their price. I just figured out that they actually have angular bearings in them which are the same ones as the BK support, so I can actually replace the BK support with the motor mounting bracket! This is absolutely amazing because it simplifies the building and only costs me an extra $15.
 
-![Pasted image 20250517140044.png](Pasted%20image%2020250517140044.png)
+![Pasted image 20250517140044.png](journal/Pasted%20image%2020250517140044.png)
 *Im dumb*
 
 So now I just had to find the right mount and then just put the STEP file into onshape!
 
 I thought that maybe the stepper motor bracket would work, but after putting it into the CAD, I figured out that there was no proper size for it :/ 
 
-![Pasted image 20250518001028.png](Pasted%20image%2020250518001028.png)
+![Pasted image 20250518001028.png](journal/Pasted%20image%2020250518001028.png)
 
 *Motor mount too small*
 
@@ -675,7 +675,7 @@ After day 15 I realized that I had to use a separate motor mount because the ste
 
 So turns out, I actually can use those motor mounts and they'll save me probably lots of pain.
 
-![Pasted image 20250518112508.png](Pasted%20image%2020250518112508.png)
+![Pasted image 20250518112508.png](journal/Pasted%20image%2020250518112508.png)
 
 *Some days*
 
@@ -695,9 +695,9 @@ But while doing this assembly, I realized that the end of the NEMA motor travels
 
 Anyways I'm ending today a bit short because I have to wake up a bit earlier tomorrow, but today I did lots of assembly stuff but the majority of the stuff was still spent on researching.
 
-![Pasted image 20250519000252.png](Pasted%20image%2020250519000252.png)
+![Pasted image 20250519000252.png](journal/Pasted%20image%2020250519000252.png)
 
-![Pasted image 20250519000305.png](Pasted%20image%2020250519000305.png)
+![Pasted image 20250519000305.png](journal/Pasted%20image%2020250519000305.png)
 
 The main things I want to do tomorrow are:
 - research how the 2 shafts should sit inside of the flexible coupling for modelling
@@ -716,7 +716,7 @@ I had 3 really simple goals that I set on day 16: Find how the shafts should sit
 
 First I started off with researching how the shafts should sit in the couplings. At first I saw someone about them not being inside of the jaw part of the bearing, but after a bit more research, they're apparently just supposed to be like 1 - 2mm apart from each other, which lets the "jaw" part of the coupling take effect.
 
-![Pasted image 20250520215206.png](Pasted%20image%2020250520215206.png)
+![Pasted image 20250520215206.png](journal/Pasted%20image%2020250520215206.png)
 
 *1mm apart*
 
@@ -726,11 +726,11 @@ Next I needed to figure out what 8mm to 10mm coupling I should use and the model
 
 It looks like it will get the job done, and I probably get free shipping on it, and it'll only cost me $20, I've also seen the Uxcell brand everywhere so I feel like I would just get a more expensive version of the same thing from the same place if I got something from somewhere else.
 
-![Pasted image 20250520215528.png](Pasted%20image%2020250520215528.png)
+![Pasted image 20250520215528.png](journal/Pasted%20image%2020250520215528.png)
 
 Now I just needed to find a model for this, the website didn't have one and I couldnt find the supplier website so I just googled it. The computers at my school kind of have google superpowers and I found a good one within like a minute on grabcad. It was the exact same specs and looked pretty darn good.
 
-![Pasted image 20250520215735.png](Pasted%20image%2020250520215735.png)
+![Pasted image 20250520215735.png](journal/Pasted%20image%2020250520215735.png)
 
 Then I just chucked a boolean on it to make it one part, then transferred it over to the assembly. Time to put all my components together now!
 
@@ -747,9 +747,9 @@ The ball screw assemblies are just the:
 
 Put together to [create these 2 beauties (video)](https://hc-cdn.hel1.your-objectstorage.com/s/v3/50de2b9fad293bffaf32df8e4e3da7d92ad289c5_2025-05-20_22-00-53.mp4). (Also thank you HackClub for the free CDN)
 
-![Pasted image 20250520220435.png](Pasted%20image%2020250520220435.png)
+![Pasted image 20250520220435.png](journal/Pasted%20image%2020250520220435.png)
 
-![Pasted image 20250520220450.png](Pasted%20image%2020250520220450.png)
+![Pasted image 20250520220450.png](journal/Pasted%20image%2020250520220450.png)
 
 My Z axis looks a little bit short, but I'll check it out when I start putting stuff into the bigger assembly and see how everything fits.
 
@@ -772,15 +772,15 @@ So I kind of had to fix all of these separate problems. First I worked on gettin
 
 So I looked on the LIMO bearings website because this is where their manuals were for the measurements.
 
-![Pasted image 20250521202928.png](Pasted%20image%2020250521202928.png)
+![Pasted image 20250521202928.png](journal/Pasted%20image%2020250521202928.png)
 
 These docs were so convoluted that I decided that it maybe wasn't this. So I just did a quick google search and turns out, the ball screw can just align flush with the BK support. 
 
-![Pasted image 20250521203437.png](Pasted%20image%2020250521203437.png)
+![Pasted image 20250521203437.png](journal/Pasted%20image%2020250521203437.png)
 
 But the motor mount was still a bit different. It needed to be within the length of the ball screw lead. But after looking at quite a few images, I think it's safe to leave it as it is with half of the ball screw lead into the coupling and half into the stepper motor. I'll look into this more though.
 
-![Pasted image 20250521204504.png](Pasted%20image%2020250521204504.png)
+![Pasted image 20250521204504.png](journal/Pasted%20image%2020250521204504.png)
 
 Now that was a bit pointless, but at least now the ball screw is aligned better.
 
@@ -809,13 +809,13 @@ I spent 2 days working on this but I got quite a bit of stuff done. I knew after
 
 First of all, I remember seeing that deal on LIMO bearings which was $50 for one whole set of the ball-screws I was using. This would LITERALLY BRING MY COSTS FOR THE BALL-SCREWS DOWN TO LESS THAN $150. This made me so happy, but required a couple modifications. 
 
-![Pasted image 20250523235431.png](Pasted%20image%2020250523235431.png)
+![Pasted image 20250523235431.png](journal/Pasted%20image%2020250523235431.png)
 
 You see, this LIMO bearings set doesn't use stepper motor mounts, but instead just fixed supports. Now buying these instead of the separate parts would save me $100, so I needed to work out a way to use the fixed support instead of the motor mount.
 
 I knew that I probably wanted to attach the fixed end to the top of the aluminum extrusion, but this does pose some rigidity issues.
 
-![Pasted image 20250523235644.png](Pasted%20image%2020250523235644.png)
+![Pasted image 20250523235644.png](journal/Pasted%20image%2020250523235644.png)
 
 *like so*
 
@@ -823,7 +823,7 @@ I feel like this is the easiest way of mounting it, but not the strongest, so I 
 
 I feel like this is kind of cutting shortcuts, so I kind of want to figure out a way of fixing this, but for now, I had some even bigger problems. Because the flexible coupling needed to go from the end of the ball screw to the stepper, the stepper motor is quite far off the mill.
 
-![Pasted image 20250524000335.png](Pasted%20image%2020250524000335.png)
+![Pasted image 20250524000335.png](journal/Pasted%20image%2020250524000335.png)
 
 This means I have to find some sort of way of attaching the stepper to the extrusion. There's a couple ways I could do this:
 - A plate from the top of the extrusion bending upwards to connect with the screws of the stepper
@@ -833,7 +833,7 @@ This means I have to find some sort of way of attaching the stepper to the extru
 
 Honestly there's only 2 things I really considered which were the plate from the top and side of the extrusion to the stepper. I decided that a plate from the side of the extrusion would be strongest and most practical, I want to keep the evenness of the top so I don't really want a plate up there. And one from the side wouldn't be too hard to machine. I could just take some scrap aluminum, put in some holes with a drill, and then bolt it in, and then BOOM, we have this support.
 
-![Pasted image 20250524000647.png](Pasted%20image%2020250524000647.png)
+![Pasted image 20250524000647.png](journal/Pasted%20image%2020250524000647.png)
 
 I decided to dissolve all of my sub-assemblies (except the ones like BF and BK supports) because I needed to start attaching smaller parts of each assembly which just wasn't working when they were sub-assemblies, so now it's all just parts in folders, which I feel like is for the best.
 
@@ -847,15 +847,15 @@ All these options were actually pretty darn good, but I ruled out changing the l
 
 It actually took me a while to find this kind of design where you raise just the sides of the bed, but I really like it, because I can just attach scrap metal to the bottom of the bed on each side and it forms a little bridge.
 
-![Pasted image 20250524001046.png](Pasted%20image%2020250524001046.png)
+![Pasted image 20250524001046.png](journal/Pasted%20image%2020250524001046.png)
 
-![Pasted image 20250524001103.png](Pasted%20image%2020250524001103.png)
+![Pasted image 20250524001103.png](journal/Pasted%20image%2020250524001103.png)
 
 And now I can just bolt through both the bed and the plates to make it very rigid and it works pretty nicely on a budget.
 
 And now I have ANOTHER problem. So the bed is moving, it's a giant chunk of aluminum moving, so it's bound to hit something *right?*. Well turns out, it's hitting the stepper motor.
 
-![Pasted image 20250524001229.png](Pasted%20image%2020250524001229.png)
+![Pasted image 20250524001229.png](journal/Pasted%20image%2020250524001229.png)
 
 I actually about perfectly get 30cm of travel for the ball-screw but I really want 35cm because it fits within the constraints of the mill. Now I'm not actually too sure how I want to do this, there's a couple of ways I could go about doing it:
 - Raise the sides of the bed even more so the bed goes over top
@@ -880,7 +880,7 @@ Time to get working on the X axis! The X axis is much more simple to design beca
 
 First I'm just going to put in some rails going from one end of the gantry to the other on the extrusion.
 
-![Pasted image 20250524231618.png](Pasted%20image%2020250524231618.png)
+![Pasted image 20250524231618.png](journal/Pasted%20image%2020250524231618.png)
 
 *I switched to just my laptop here so the images might look a little funky*
 
@@ -888,23 +888,23 @@ Now I'm pretty sure it's best to put the ball-screw between the 2 sides of the g
 
 Anyways I added the supports, turns out the BK support can't exactly touch the walls because the stepper still has to attach to it, and the stepper is attached to the side through it's screws. So for now I'll just leave it in the center until the coupling and stuff is modeled in.
 
-![Pasted image 20250524233307.png](Pasted%20image%2020250524233307.png)
+![Pasted image 20250524233307.png](journal/Pasted%20image%2020250524233307.png)
 
 Now I have to add some screw holes into the walls of the gantry. 
 
 Quick math: The extrusion is 8cm long, and the center of the motor will be the center of both extrusions, so down 6cm.
 
-![Pasted image 20250524233612.png](Pasted%20image%2020250524233612.png)
+![Pasted image 20250524233612.png](journal/Pasted%20image%2020250524233612.png)
 
 Now just have to add the screw dimensions in and BOOM, we have the mounts for the motor.
 
-![Pasted image 20250524233953.png](Pasted%20image%2020250524233953.png)
+![Pasted image 20250524233953.png](journal/Pasted%20image%2020250524233953.png)
 
-![Pasted image 20250524234136.png](Pasted%20image%2020250524234136.png)
+![Pasted image 20250524234136.png](journal/Pasted%20image%2020250524234136.png)
 
 Now I just have to add a center hole for the motor so that the shaft can go through, I'll just make this like 16mm or something like that so it fits the shaft nicely but maintains structural rigidity.
 
-![Pasted image 20250524234800.png](Pasted%20image%2020250524234800.png)
+![Pasted image 20250524234800.png](journal/Pasted%20image%2020250524234800.png)
 
 Now I'm going to add the coupling to the servo and then the ball-screw. My ball-screws seem bugged right now though, so I kind of need to fix those, I'm going to look through my history first and then if that doesn't work, I'll just re-import them.
 
@@ -924,35 +924,35 @@ I calculated the deflection of the 8080 under all this weight and it holds up we
 
 You don't want more than **0.075mm** of deflection on a given axis, and mine comes down to just 0.0026mm at the MAX which is pretty good.
 
-![Pasted image 20250527070134.png](Pasted%20image%2020250527070134.png)
+![Pasted image 20250527070134.png](journal/Pasted%20image%2020250527070134.png)
 
 Now I just gotta model this in. First I'm going to delete the current ball screw just because the new one is mounted a bit differently. I'm going to move the side panel holes and add some standoffs like so:
 
-![Pasted image 20250527070302.png](Pasted%20image%2020250527070302.png)
+![Pasted image 20250527070302.png](journal/Pasted%20image%2020250527070302.png)
 
 I then need to mount the stepper motor onto the standoffs like so:
 
-![Pasted image 20250527074106.png](Pasted%20image%2020250527074106.png)
+![Pasted image 20250527074106.png](journal/Pasted%20image%2020250527074106.png)
 
 And then add the BK support fastened to the wall. A problem arose when I did this though, the screw holes of the BK support, lined up with the screw holes of the stepper motor spacers. This means that I wouldn't be able to actually bolt them in properly. It took me about a half hour to find a cool solution to this, but I came up with this ingenious design.
 
-![Pasted image 20250527202842.png](Pasted%20image%2020250527202842.png)
+![Pasted image 20250527202842.png](journal/Pasted%20image%2020250527202842.png)
 
 I mounted the motor at an angle and then just attached the support like normal. This means that the holes will line up differently, while keeping the BK 12 support in line.
 
 Now the BK support has to attach to the wall but also face a certain way. The larger end needs to be facing the stepper motor, so I can't just directly bolt the face of the BK support into the side panel. So I decided to just add some small 75mm spacers.
 
-![Pasted image 20250527203032.png](Pasted%20image%2020250527203032.png)
+![Pasted image 20250527203032.png](journal/Pasted%20image%2020250527203032.png)
 
 Now I'm just going to finish adding the ball screw and BF support like so:
 
-![Pasted image 20250527204705.png](Pasted%20image%2020250527204705.png)
+![Pasted image 20250527204705.png](journal/Pasted%20image%2020250527204705.png)
 
 *Side tangent: working with the current ball-screw part studio is sooooo laggy so it takes a while to make them longer and such which is SO annoying*
 
 Time to add the nut and housing now!
 
-![Pasted image 20250527204935.png](Pasted%20image%2020250527204935.png)
+![Pasted image 20250527204935.png](journal/Pasted%20image%2020250527204935.png)
 
 AND **BOOM** we now have ourselves most of the gantry. Now I really just have to add the carriages onto the rails.
 
@@ -960,7 +960,7 @@ AND **BOOM** we now have ourselves most of the gantry. Now I really just have to
 
 Now our gantry looks sick asf.
 
-![Pasted image 20250527211909.png](Pasted%20image%2020250527211909.png)
+![Pasted image 20250527211909.png](journal/Pasted%20image%2020250527211909.png)
 
 Now I'm curious if this gantry will actually be rigid enough. I've run the calculations and the deflection is fine, but vibrations and whatnot might not be okay. Maybe I'll reach out to the good folk on the PrintNC discord for some advice.
 
@@ -986,7 +986,7 @@ Now I don't actually know exactly what I want, but I have some minimum requireme
 
 *Note: an end mill is basically the cutting bit*
 
-![Pasted image 20250528162325.png](Pasted%20image%2020250528162325.png)
+![Pasted image 20250528162325.png](journal/Pasted%20image%2020250528162325.png)
 
 After a bit of research, I'm definitely leaning more towards an air cooled spindle. This is because a water cooled spindle requires lots of extra components like:
 - VFD
@@ -1047,7 +1047,7 @@ Anyways looking at spindles is a bit boring so I want to take a second look at t
 
 Really I want to make it faster to assemble, more rigid and simplified. So after getting some inspiration from this design, I really want to use it instead.
 
-![Pasted image 20250603071828.png](Pasted%20image%2020250603071828.png)
+![Pasted image 20250603071828.png](journal/Pasted%20image%2020250603071828.png)
 
 It's 2, 4080's stacked on-top of each other with a gap in-between for the ball-screw. I'm going to then mount the linear rails to the faces and attach the gantry perfectly onto the face of the plate. This design is much more optimal and distributes the load of the z axis more evenly. Another thing I can add later is a plate on the back so that the 4080's act as one and will decrease vibrations and increase rigidity.
 
@@ -1057,7 +1057,7 @@ It will be a bit annoying to design though because I've done all of this design 
 
 Now after re-orienting everything I have a nice design like this:
 
-![Pasted image 20250603205313.png](Pasted%20image%2020250603205313.png)
+![Pasted image 20250603205313.png](journal/Pasted%20image%2020250603205313.png)
 
 A couple things I didn't specifically mention I did were:
 - Rotating the BK/BF support, for the rotated ball-screw
@@ -1073,7 +1073,7 @@ But now that I have the general thing down, I kind of want to revisit the side p
 
 This was the perfect use case of ChatGPT for me and it gave me LOTS of good suggestions:
 
-![Pasted image 20250603205652.png](Pasted%20image%2020250603205652.png)
+![Pasted image 20250603205652.png](journal/Pasted%20image%2020250603205652.png)
 
 Here's the consensus though:
 - Use 3/8 or 1/2 inch aluminum that's already stocked, I'll probably use 3/8 because 1/2 is 50% more expensive at least (3/8 is 9.53mm which is also very close to what I need)
@@ -1089,11 +1089,11 @@ I'll take a look at the bed another time because that's a bit more complicated b
 
 And just like that, we have our new side panels!
 
-![Pasted image 20250603210821.png](Pasted%20image%2020250603210821.png)
+![Pasted image 20250603210821.png](journal/Pasted%20image%2020250603210821.png)
 
 Now check out something neat with our ball-screw now. It's nearly flush with the linear rails:
 
-![Pasted image 20250603210853.png](Pasted%20image%2020250603210853.png)
+![Pasted image 20250603210853.png](journal/Pasted%20image%2020250603210853.png)
 
 This gives me the opportunity to just use one plate for the gantry which would be really cost effective and handy.
 
@@ -1115,21 +1115,21 @@ First I want to get the ball-screw flush with the rails, this just involves eith
 
 The ball-screw housing has equal sizing on each side, so if we take the center, we can count from the center outwards and have a references point. You can see from the center out, it's 2cm.
 
-![Pasted image 20250604065759.png](Pasted%20image%2020250604065759.png)
+![Pasted image 20250604065759.png](journal/Pasted%20image%2020250604065759.png)
 
 So I drew a little line from where the face of the ball-screw sits:
 
-![Pasted image 20250604065936.png](Pasted%20image%2020250604065936.png)
+![Pasted image 20250604065936.png](journal/Pasted%20image%2020250604065936.png)
 
 To make it easier to see that I need to add .5cm to the offset. This makes one of my wholes go off though so now we need to fix that!
 
-![Pasted image 20250604070026.png](Pasted%20image%2020250604070026.png)
+![Pasted image 20250604070026.png](journal/Pasted%20image%2020250604070026.png)
 
 AND they're not aligned and quickly I realized that I used the measurements from the HGH20CA rails instead of the 15CA rails which I'm actually using. So I literally just need to take off 2mm.
 
 And now PERFECTLY, the wholes thing line up, the rails and ball-screw are flush and it doesn't seem like the wholes going over the edge of the side panels is going to be a problem anymore!
 
-![Pasted image 20250604070506.png](Pasted%20image%2020250604070506.png)
+![Pasted image 20250604070506.png](journal/Pasted%20image%2020250604070506.png)
 
 Now let's go back to researching spindles. I know I want to get a 1.5kw air cooled spindle so I should be able to find some actual suitable options. I think I'm going to look more specifically at spindle kits because they're more cost effective.
 
@@ -1145,12 +1145,12 @@ But as I'm looking at dimensions, I'm still going back and forth between the col
 
 Anyways, let's get back to the spindle. These are the specifications from the spindle kit. 
 
-![Pasted image 20250604170123.png](Pasted%20image%2020250604170123.png)
+![Pasted image 20250604170123.png](journal/Pasted%20image%2020250604170123.png)
 The spindle is an HLTNC spindle, which looks pretty good and I feel like it will be perfect for light aluminum, which I feel like is the standard for my current design.
 
 So using these dimensions I'll create a basic outline.
 
-![Pasted image 20250605070834.png](Pasted%20image%2020250605070834.png)
+![Pasted image 20250605070834.png](journal/Pasted%20image%2020250605070834.png)
 
 We really just need a general shape for the spindle to represent it's height relative to the bed so that we can kind of visualize how much Z space we have.
 
@@ -1160,11 +1160,11 @@ Then you can offset some of the circular components by taking their diameter and
 
 And BOOM, we now have a spindle:
 
-![Pasted image 20250605071526.png](Pasted%20image%2020250605071526.png)
+![Pasted image 20250605071526.png](journal/Pasted%20image%2020250605071526.png)
 
 Now we can make it look a bit prettier by rounding and changing the colors. And now it's perfect. I'll just quickly add a boolean to make it all one part and then it'll be perfect!
 
-![Pasted image 20250606065147.png](Pasted%20image%2020250606065147.png)
+![Pasted image 20250606065147.png](journal/Pasted%20image%2020250606065147.png)
 
 I wish I could have like different colors for a boolean, but that requires having this as like a sub-assembly which I don't really need. Except for if I want to get fancy and simulate like an end-mill on this.
 
@@ -1182,41 +1182,41 @@ First I'm going to have a plate that's mounted to the rails/ball-screw. This pla
 
 First I want to do some calculations so that I get the rails and ball-screw all perfectly attached to the plate. This is just some quick math that I did based off the rail and ball-screw dimensions:
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfekXrHGwFSqqopYDu7YAVnAMyc3P9bV9nh8eM0dH-MXo4ID-jhLSTOWzhdgMc8VQU9gjcRfig0fKMdvyjBK3CAB0gGf42tSpEj4Dv1Pb3eUMTrliuQWziG6cwxCo95BZcHvNlGXw?key=fT4XSf48xS1RgFciDTHXKleY)
+![](journal/https://lh7-rt.googleusercontent.com/docsz/AD_4nXfekXrHGwFSqqopYDu7YAVnAMyc3P9bV9nh8eM0dH-MXo4ID-jhLSTOWzhdgMc8VQU9gjcRfig0fKMdvyjBK3CAB0gGf42tSpEj4Dv1Pb3eUMTrliuQWziG6cwxCo95BZcHvNlGXw?key=fT4XSf48xS1RgFciDTHXKleY)
 
 I'm not quite sure what size to make the X and Y but honestly, those don't really matter for now, I just need to get the relative dimensions of the holes in.
 
 So now let's design this plate, I'm going to put all of this stuff inside of a spindle folder just for ease of organization, and just like that, we have our plate. There were a couple dimensions that were off for some reason, but with a bit of modification, I got it in.
 
-![Pasted image 20250606070007.png](Pasted%20image%2020250606070007.png)
+![Pasted image 20250606070007.png](journal/Pasted%20image%2020250606070007.png)
 
 Now we can just extrude this to form a plate. I'm going to choose 3/8" aluminum, so I'm going to make the width 9.525mm. 
 
-![Pasted image 20250606070245.png](Pasted%20image%2020250606070245.png)
+![Pasted image 20250606070245.png](journal/Pasted%20image%2020250606070245.png)
 
 Now I'm not going to really worry about the dimensions for now, I'll just make all the holes and stuff relative to each other so I can dynamically change the width and height.
 
 Now let's put this in our assembly just to see how it fits, and *perfect*!
 
-![Pasted image 20250606070329.png](Pasted%20image%2020250606070329.png)
+![Pasted image 20250606070329.png](journal/Pasted%20image%2020250606070329.png)
 
 The ball-screw is at a slight angle, I'm not too sure how to actually fix that, so the holes might be just barely off. I usually just group the ball-screw with the plate instead of fixing it because it breaks my whole assembly when I fasten it to the plate. Probably because it's at an angle, but I'm really not too sure. 
 
 Let's just change the color real quick and **boom**, the spindle assembly, already looks pretty good!
 
-![Pasted image 20250606070715.png](Pasted%20image%2020250606070715.png)
+![Pasted image 20250606070715.png](journal/Pasted%20image%2020250606070715.png)
 
 Now I'm going to add some rails to the plate. I chucked a rail onto the plate to just see if I could nicely space a rail between the carriages and it actually works out perfectly!
 
 The holes on the rails are 4.5mm wide and they're spaced out 60mm. I want the rails to be closer to the center of mass too so that the spindle gets less vibrations and has more stability. With this in mind, let's put the holes on.
 
-![Pasted image 20250606165549.png](Pasted%20image%2020250606165549.png)
+![Pasted image 20250606165549.png](journal/Pasted%20image%2020250606165549.png)
 
 You can see that they fit literally perfectly! Now we're just going to add the rails onto them. For now, I'm just going to make the rails 250mm long because that's a big bigger than the size of the plate. I also decreased the size of the plate so that there's a bit more rigidity and less wasted space.
 
 And that looks perfect!
 
-![Pasted image 20250606165655.png](Pasted%20image%2020250606165655.png)
+![Pasted image 20250606165655.png](journal/Pasted%20image%2020250606165655.png)
 
 Now I just need to create a mounting plate for the spindle so I can put it onto the rails, I'll just make this plate 3/8" again so that there's not too many vibrations. I want all of these components to be tight nit so it's rigid and there's not too many vibrations.
 
@@ -1226,11 +1226,11 @@ Before I do everything though, I'm going to put some holes onto the gantry plate
 
 The BF support is pretty simple to model, it's just 2 holes so I'll put that at the very bottom of the plate. But a bit of a problem comes up when I put the BF support on, it intersects with the ball-screw. Now this might actually act as a natural stopper so once I add the full ball-screw assembly, I'll take a look at it. It's pretty easy to increase the distance between rails.
 
-![Pasted image 20250606172530.png](Pasted%20image%2020250606172530.png)
+![Pasted image 20250606172530.png](journal/Pasted%20image%2020250606172530.png)
 
 But the distance between it and the bottom looks pretty perfect! Now I'm going to model the BK support onto the plate. It's getting very cramped on the gantry plate, so I might need to make it larger.
 
-![Pasted image 20250606173812.png](Pasted%20image%2020250606173812.png)
+![Pasted image 20250606173812.png](journal/Pasted%20image%2020250606173812.png)
 
 Now you can tell the BK10 support intersects the carriages on the gantry so I'm going to make the gantry plate much larger. I also want enough space to actually put the stepper on the gantry plate but the stepper can be hanging off the top a little so I don't need to make it *that* much taller.
 
@@ -1252,53 +1252,53 @@ Doing some quick math (24mm (nut) + 29mm (BK support) + 20mm (BF support) + 30mm
 
 Now that I have the housing and screw on, you can see that I clearly need to widen the spacing between the rails so I'll do that real quick.
 
-![Pasted image 20250608001556.png](Pasted%20image%2020250608001556.png)
+![Pasted image 20250608001556.png](journal/Pasted%20image%2020250608001556.png)
 
 Also for some reason, shortening the screw is being a bit finniquy, so that's a 300mm screw in the photo. I've widened the spacing between the rails by 2cm and it's perfect now:
 
-![Pasted image 20250608001901.png](Pasted%20image%2020250608001901.png)
+![Pasted image 20250608001901.png](journal/Pasted%20image%2020250608001901.png)
 
 While having the ball-screw in place, I took the change to check out the distance between the face of the carriage and ball-screw and there's quite a bit, so we'll have to figure out how to get the spindle plate on later. I'm thinking same style as the bed and just do a smaller plate on the rails and larger on-top of that.
 
-![Pasted image 20250608002021.png](Pasted%20image%2020250608002021.png)
+![Pasted image 20250608002021.png](journal/Pasted%20image%2020250608002021.png)
 
 When I was designing though I found that one of my ball-screws was off for some reason. and in a very weird way too.
 
-![Pasted image 20250609064712.png](Pasted%20image%2020250609064712.png)
+![Pasted image 20250609064712.png](journal/Pasted%20image%2020250609064712.png)
 
 It's a pretty quick fix though, I was using the same ball-screw for the gantry and bed but ones 500mm and the other is 480mm, and I made the 480mm longer for some reason.
 
 Now it's sitting properly and we can get back to the spindle.
 
-![Pasted image 20250609070322.png](Pasted%20image%2020250609070322.png)
+![Pasted image 20250609070322.png](journal/Pasted%20image%2020250609070322.png)
 
 I also really want to design my own ball-screws now because I'm not too sure what the exact dimensions of the ball-screw machined ends are which are pretty important for aligning in the support properly.
 
 So let's get to designing some custom ball-screws. Honestly, I can just represent the ball-screw as different diameter screws. First I researched how big the machined ends of the ball-screws are and found that there's a pretty common standard.
 
-![Pasted image 20250610174541.png](Pasted%20image%2020250610174541.png)
+![Pasted image 20250610174541.png](journal/Pasted%20image%2020250610174541.png)
 
 I'll keep the nut because it's a very accurate model but I'll just design new screws. They were really easy to design and then I just put a helix on in case in the future I wanted to make them actual screws.
 
-![Pasted image 20250610174647.png](Pasted%20image%2020250610174647.png)
+![Pasted image 20250610174647.png](journal/Pasted%20image%2020250610174647.png)
 
 I then did this for the SFU1204 which had slightly different dimensions.
 
-![Pasted image 20250610174747.png](Pasted%20image%2020250610174747.png)
+![Pasted image 20250610174747.png](journal/Pasted%20image%2020250610174747.png)
 
 Now I have to do the slightly monotonous job of putting this into the assembly because everything is broken now. But anyways a bit later, the assembly is perfect.
 
-![Pasted image 20250610174910.png](Pasted%20image%2020250610174910.png)
+![Pasted image 20250610174910.png](journal/Pasted%20image%2020250610174910.png)
 
 Now I can verify that all my ball-screws perfectly align with the supports.
 
-![Pasted image 20250610174952.png](Pasted%20image%2020250610174952.png)
+![Pasted image 20250610174952.png](journal/Pasted%20image%2020250610174952.png)
 
 A couple of them happened to be a bit off, so I ended up modifying them a bit and now everything looks pretty to scale.
 
 Anyways, it's time to work on the spindle ball-screw setup now, I need to increase the length of the plate so that I can attach the stepper motor easily.
 
-![Pasted image 20250610175331.png](Pasted%20image%2020250610175331.png)
+![Pasted image 20250610175331.png](journal/Pasted%20image%2020250610175331.png)
 
 Now there's a couple of ways I can attach this stepper motor:
 - Some aluminum plates screws in to the plate and then upwards connecting the motor
@@ -1311,15 +1311,15 @@ I'm going to be basing the design of this mount based off of [Tom Stanton's desi
 
 I'm going to just use the dimensions of the NEMA23 mount I already designed and then just add the supports and such.
 
-![Pasted image 20250610174513.png](Pasted%20image%2020250610174513.png)
+![Pasted image 20250610174513.png](journal/Pasted%20image%2020250610174513.png)
 
 Anyways I'll just extrude that and see how it is. The cool thing about having everything very accurately designed, is that I can test stuff out and see how it is. Clearly it's not long enough so I can just make it longer, and then I'll add some fillets and such.
 
-![Pasted image 20250610180517.png](Pasted%20image%2020250610180517.png)
+![Pasted image 20250610180517.png](journal/Pasted%20image%2020250610180517.png)
 
 Anyways, while I was designing this, I got a message from the people at PrintNC who showed me this absolutely ingenious way of connecting the stepper.
 
-![Pasted image 20250610181052.png](Pasted%20image%2020250610181052.png)
+![Pasted image 20250610181052.png](journal/Pasted%20image%2020250610181052.png)
 
 Thanks Logan! So I'm definitely switching to this because it looks really rigid and well thought out! 
 
@@ -1331,11 +1331,11 @@ Anyways, I'm going to save this for tomorrow though as I've already spent quite 
 
 Anyways I want to design something like this to act as a motor mount on my spindle assembly.
 
-![Pasted image 20250611071559.png](Pasted%20image%2020250611071559.png)
+![Pasted image 20250611071559.png](journal/Pasted%20image%2020250611071559.png)
 
 This will keep the stepper rigidly attached and I can print it in ABS or PETG. Now I've already designed a mount but it's way less rigid from this one.
 
-![Pasted image 20250611071741.png](Pasted%20image%2020250611071741.png)
+![Pasted image 20250611071741.png](journal/Pasted%20image%2020250611071741.png)
 
 The good thing about what I currently have, is that it's one of the faces of this new mount so I can still keep it. I just have to model the BK support and the other faces.
 
@@ -1343,13 +1343,13 @@ Now one of the things is that the stepper actually goes underneath the top face 
 
 First I'll make that little piece that connects to the BK support. I've spent a lot of time working on this piece and after maybe like an hour I'm here:
 
-![Pasted image 20250611210251.png](Pasted%20image%2020250611210251.png)
+![Pasted image 20250611210251.png](journal/Pasted%20image%2020250611210251.png)
 
 I keep on messing up the measurements and such so I keep on having to re-iterate. It still needs lot of work though but it's definitely coming along!
 
 Anyways after a little bit I wrapped it up, looks pretty good!
 
-![Pasted image 20250615125439.png](Pasted%20image%2020250615125439.png)
+![Pasted image 20250615125439.png](journal/Pasted%20image%2020250615125439.png)
 
 I'll just end today off here and then tomorrow I'll work on the next motor mount!
 
@@ -1365,7 +1365,7 @@ I just took the datasheets of the BK12 support and used the Z axis mount design 
 
 This took about an hour and half but it looks pretty good!
 
-![Pasted image 20250615125749.png](Pasted%20image%2020250615125749.png)
+![Pasted image 20250615125749.png](journal/Pasted%20image%2020250615125749.png)
 
 Now our mills is looking pretty good with the new mounts, I actually don't really see any parts that are looking a bit out of place and are hard to assemble.
 
@@ -1373,7 +1373,7 @@ I really want this mill to be easily assemblable and simple so I don't want like
 
 But anyways here's a photo of the current mill:
 
-![Pasted image 20250615125907.png](Pasted%20image%2020250615125907.png)
+![Pasted image 20250615125907.png](journal/Pasted%20image%2020250615125907.png)
 
 On a side note, I applied to this program called Bagel Fund and they give grants to cool projects like mine. It's a really cool concept and they give $100 to $500 micro-grants which are really impactful for projects like mine. So I need to book a call and hopefully I'll maybe get a $400 grant or something like that :D
 
@@ -1398,17 +1398,17 @@ Now there's a couple of options I could opt for, for the bed, I just sandwiched 
 
 Anyways before I even think about that, let's figure out the exact distance between the rails and ball-screw housing. If you ever find yourself doing something like this, just do it in [excalidraw](https://excalidraw.com/) on on paper, it's so helpful (EXCALIDRAW IS SOOO GOOD).
 
-![Pasted image 20250615131943.png](Pasted%20image%2020250615131943.png)
+![Pasted image 20250615131943.png](journal/Pasted%20image%2020250615131943.png)
 
 AND I JUST DISCOVERED THERE'S EXCALIDRAW FOR OBSIDIAN WHICH I'M USING. My mind is absolutely blown!!!
 
 Anyways, doing some quick math we can find that it's exactly 9mm between the 2:
 
-![Pasted image 20250615134108.png](Pasted%20image%2020250615134108.png)
+![Pasted image 20250615134108.png](journal/Pasted%20image%2020250615134108.png)
 
 Quick verification too, you don't really need to do this because you're going to model a part with the same dimensions either way, but I did it to demonstrate.
 
-![Pasted image 20250615134151.png](Pasted%20image%2020250615134151.png)
+![Pasted image 20250615134151.png](journal/Pasted%20image%2020250615134151.png)
 
 Anyways, because the gap is 9mm, I can get away with using a stock piece of 3/8", which is 0.953 cm, so I will just have 0.53 mm of space between the ball-screw and the plate, which should be pretty much negligible, although I should probably so a bit more research into this. 
 
@@ -1416,11 +1416,11 @@ A mistake I made with the bed wasn't giving some leeway with the metal attached 
 
 It's pretty simple to design the plate, it's just going to be double the height of the carriage and the same width with holes, so let's design it!
 
-![Pasted image 20250615195405.png](Pasted%20image%2020250615195405.png)
+![Pasted image 20250615195405.png](journal/Pasted%20image%2020250615195405.png)
 
 So we take this, just use the height and width, and boom:
 
-![Pasted image 20250615200215.png](Pasted%20image%2020250615200215.png)
+![Pasted image 20250615200215.png](journal/Pasted%20image%2020250615200215.png)
 
 Now we have some exact plates, and I designed them in a way where I can easily make them bigger and smaller depending on when I need them.
 
@@ -1438,19 +1438,19 @@ First I'm going to start working on the spindle plate, it's got pretty simple di
 
 And just like that, we have a plate we can put our spindle on!
 
-![Pasted image 20250616065054.png](Pasted%20image%2020250616065054.png)
+![Pasted image 20250616065054.png](journal/Pasted%20image%2020250616065054.png)
 
 But now we have some even bigger problems, the plate intersects the BF, BK and motor mount supports!
 
 This means that our range of motion is MUCH lower:
 
-![Pasted image 20250616065154.png](Pasted%20image%2020250616065154.png)
+![Pasted image 20250616065154.png](journal/Pasted%20image%2020250616065154.png)
 
 The BK support and it's motor mount seem's really difficult to fix, so I'm going to focus on the BF support which would give us nearly 2cm of more space!
 
 You can see the intersection is really mild on the spindle, just about a couple of mm. 
 
-![Pasted image 20250616065444.png](Pasted%20image%2020250616065444.png)
+![Pasted image 20250616065444.png](journal/Pasted%20image%2020250616065444.png)
 
 With this in mind, we have a couple of options we could do:
 - Indent into the plate about 3mm so it just passes over the BF support and then add a spacer
@@ -1461,23 +1461,23 @@ Honestly I'm not too sure what to do so I'll ask the guys at PrintNC.
 
 Anyways after a bit, they told me that sandwiching would probably work best, so I increased the amount of material on each spacer and added material to the ball-screw, to create this NEARLY flush surface.
 
-![Pasted image 20250618064600.png](Pasted%20image%2020250618064600.png)
+![Pasted image 20250618064600.png](journal/Pasted%20image%2020250618064600.png)
 
 Anyways, now I have to modify the ball-screw mount a bunch to actually let me have all of this clearance but it isn't too complicated:
 
-![Pasted image 20250618064636.png](Pasted%20image%2020250618064636.png)
+![Pasted image 20250618064636.png](journal/Pasted%20image%2020250618064636.png)
 
 Now there's another problem, our current ball-screw position doesn't give us this clearance! It's intersecting with the mount, so now we have to fix that third thing, I'm just going to move the ball-screw down for this and I think the rigidity will be fine!
 
 I also added the spindle here just because it's a couple screws and pretty simple to put on and helps me with my calculations!
 
-![Pasted image 20250618064756.png](Pasted%20image%2020250618064756.png)
+![Pasted image 20250618064756.png](journal/Pasted%20image%2020250618064756.png)
 
 For this, I'm going to simply bring the ball-screw down to the point where it's just above the BF support of the assembly which should be about the perfect distance (3.4cm)!
 
 And I'm liking this! I get about 13.5cm of travel which is pretty good, the rails can't fall off because the ball-screw hits the support first and nothing seems to be intersecting!!!!
 
-![Pasted image 20250618072503.png](Pasted%20image%2020250618072503.png)
+![Pasted image 20250618072503.png](journal/Pasted%20image%2020250618072503.png)
 
 Anyways the gantry's looking good so I'm going to end if off there!
 
@@ -1498,17 +1498,17 @@ I calculated that there's about 1.7cm of space between the carriages and the bal
 
 This is also enough to clear the supports so it's pretty perfect.
 
-![Pasted image 20250618173352.png](Pasted%20image%2020250618173352.png)
+![Pasted image 20250618173352.png](journal/Pasted%20image%2020250618173352.png)
 
 I also need to move the ball-screw nut so it makes the most effective use of the available rail space and so that the carriages don't just fall off. This is fairly simple, I'll just move the nut.
 
 Now the ball-screw lines up pretty nicely with the end of the rails (on both sides, I just didn't show the other side:
 
-![Pasted image 20250618173530.png](Pasted%20image%2020250618173530.png)
+![Pasted image 20250618173530.png](journal/Pasted%20image%2020250618173530.png)
 
 Big problem though, the bed intersects with the stepper mount support, so it'll just hit it....
 
-![Pasted image 20250618173713.png](Pasted%20image%2020250618173713.png)
+![Pasted image 20250618173713.png](journal/Pasted%20image%2020250618173713.png)
 
 I'm going to leave this problem for future me though and instead work on attaching the extrusions together properly. I want to use like T-Nuts/bolts but I have to tighten them through the extrusion because they're perpendicular to each other.
 
@@ -1516,7 +1516,7 @@ This means I have to drill holes on some of the extrusions so that I can actuall
 
 Really, the only holes I need are some on the faces of the longer extrusions like so:
 
-![Pasted image 20250619211135.png](Pasted%20image%2020250619211135.png)
+![Pasted image 20250619211135.png](journal/Pasted%20image%2020250619211135.png)
 
 This will let me tighten all the tapped holes of the other extrusions.
 
