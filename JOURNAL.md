@@ -1521,3 +1521,28 @@ Really, the only holes I need are some on the faces of the longer extrusions lik
 This will let me tighten all the tapped holes of the other extrusions.
 
 Now I kind of need to figure out how the other components are going to be attached. I've already researched T-Nuts and stuff
+
+## Day 30 - BOM
+
+Now the CNC mill is pretty done, I need it to be nearly finished by June 25th so I can qualify for a hackclub thing. This means I need to get the BOM in place.
+
+I'm just going to be adding all the stuff into the BOM as I go through my mill and make adjustments accordingly if I see anything a bit off.
+
+I'm going to be using Google Sheets for my BOM and I'm going to format it like the PrintNC because I like how they did it, but I'm also going to add a couple of fields.
+
+![[Pasted image 20250621122426.png]]
+
+Because I'm using specific parts I'm going to have a price and a supplier field so now my current sheet looks like so.
+
+![[Pasted image 20250621122546.png]]
+
+Anyways from now on I'll just add updates whenever I see something a bit off in my design.
+
+The first thing I found off was my gantry plate, which just uses cm instead of inches.
+
+![[Pasted image 20250621122637.png]]
+
+The measurements are similar to inches so I'll just adjust it accordingly. Currently the carriages on my rails don't have that much clearance so when I make the plate bigger I'm going to increase the clearance. And now the plate is properly reflected (though it is off by about 0.3mm or so because I didn't want to have to deal with onshape rouding issues)
+
+![[Pasted image 20250621130446.png]]
+
