@@ -1,4 +1,4 @@
-# KaiNC V1
+# KaiNC V1 CNC Mill
 
 ![Pasted image 20250716235359.png](journal/Pasted%20image%2020250716235359.png)
 ![Pasted image 20250716235422.png](journal/Pasted%20image%2020250716235422.png)
